@@ -1,0 +1,127 @@
+{
+  "notebook": {
+    "created_at": 1791365425.873455,
+    "id": "nb_a51bead778ef45a9",
+    "name": "Real image-only chart verification"
+  },
+  "upload": {
+    "results": [
+      {
+        "document": {
+          "created_at": 1791365425.9053226,
+          "duplicate": false,
+          "error": null,
+          "id": "doc_b54f6adf88144c0f",
+          "name": "image-only-chart.pdf",
+          "notebook_id": "nb_a51bead778ef45a9",
+          "page_count": 0,
+          "selected": 1,
+          "sha256": "aac8dbdb7a882e988867d9f6695ea23a6cd64ab052007706f78541f526d5a4bd",
+          "size_bytes": 771564,
+          "status": "pending",
+          "stored_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\uploads\\nb_a51bead778ef45a9\\5e9ac81e777f.pdf"
+        },
+        "job_id": "job_26c75d0802e24344",
+        "status": "queued"
+      }
+    ]
+  },
+  "index": {
+    "document_id": "doc_b54f6adf88144c0f",
+    "error": null,
+    "id": "job_26c75d0802e24344",
+    "kind": "index_document",
+    "message": "Complete",
+    "progress": 1.0,
+    "result": {
+      "document_id": "doc_b54f6adf88144c0f",
+      "pages": 1
+    },
+    "status": "done"
+  },
+  "answer_job": {
+    "job_id": "job_786fbab463214558"
+  },
+  "answer": {
+    "document_id": null,
+    "error": null,
+    "id": "job_786fbab463214558",
+    "kind": "answer",
+    "message": "Complete",
+    "progress": 1.0,
+    "result": {
+      "calculations": [],
+      "citations": {
+        "vis_4586cfb3c6bb": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_b54f6adf88144c0f",
+          "document_name": "image-only-chart.pdf",
+          "evidence_id": "vis_4586cfb3c6bb",
+          "extraction_method": "qwen_visual",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "section not identified",
+          "warnings": [
+            "visual observation; verify against the page image"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "evidence_ids": [
+            "vis_4586cfb3c6bb"
+          ],
+          "quote": "Q2: 72%",
+          "support_check": "quote_found_in_evidence",
+          "text": "Q2 is 72%"
+        },
+        {
+          "evidence_ids": [
+            "vis_4586cfb3c6bb"
+          ],
+          "quote": "Q4: 84%",
+          "support_check": "quote_found_in_evidence",
+          "text": "Q4 is 84%"
+        },
+        {
+          "evidence_ids": [
+            "vis_4586cfb3c6bb"
+          ],
+          "quote": "Q4 is higher.",
+          "support_check": "quote_found_in_evidence",
+          "text": "Q4 is higher"
+        }
+      ],
+      "documents_searched": [
+        "image-only-chart.pdf"
+      ],
+      "dropped_claims": [],
+      "evidence_needs": [
+        "Read the production efficiency chart. What are the Q2",
+        "Q4 percentages,",
+        "which quarter is higher? Cite the chart",
+        "Read the production efficiency chart. What are the Q2 and Q4 percentages, and which quarter is higher? Cite the chart."
+      ],
+      "limitations": [
+        "Citation support is checked heuristically (quote matching with numeric boundaries); a verified quote does not prove the source supports the whole claim."
+      ],
+      "pages_analyzed": [
+        {
+          "document_id": "doc_b54f6adf88144c0f",
+          "document_name": "image-only-chart.pdf",
+          "image_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\pages\\doc_b54f6adf88144c0f\\page_0001.png",
+          "page_number": 1
+        }
+      ],
+      "unanswerable_parts": [],
+      "unavailable_sources": [],
+      "visual_coverage": {
+        "candidate_visual_pages": 1,
+        "complete": true,
+        "pages_analyzed": 1
+      }
+    },
+    "status": "done"
+  }
+}

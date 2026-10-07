@@ -1,0 +1,42 @@
+{
+  "inference_success": true,
+  "recognition_passed": true,
+  "preflight": {
+    "state": "not_loaded",
+    "model_file_present": true,
+    "projector_file_present": true,
+    "handler_available": true,
+    "gpu_offload_supported": false,
+    "loaded": false,
+    "gpu_placement_observed": null,
+    "visual_inference_tested": false,
+    "load_seconds": null,
+    "last_inference_seconds": null,
+    "error": null,
+    "model_path": "C:\\Users\\sanja\\Sonion\\Model\\Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf",
+    "mmproj_path": "C:\\Users\\sanja\\Sonion\\Model\\mmproj-F16.gguf"
+  },
+  "runtime_mode": "CPU fallback",
+  "answer": "\n```json\n{\n  \"Q2\": {\n    \"value\": 72,\n    \"unit\": \"%\"\n  },\n  \"Q4\": {\n    \"value\": 84,\n    \"unit\": \"%\"\n  },\n  \"higher_quarter\": \"Q4\"\n}\n```",
+  "total_seconds": 32.75,
+  "checks": {
+    "Q2=72%": true,
+    "Q4=84%": true,
+    "Q4 higher": true
+  },
+  "status": {
+    "state": "loaded",
+    "model_file_present": true,
+    "projector_file_present": true,
+    "handler_available": true,
+    "gpu_offload_supported": false,
+    "loaded": true,
+    "gpu_placement_observed": null,
+    "visual_inference_tested": true,
+    "load_seconds": 11.062,
+    "last_inference_seconds": 21.672,
+    "error": null,
+    "model_path": "C:\\Users\\sanja\\Sonion\\Model\\Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf",
+    "mmproj_path": "C:\\Users\\sanja\\Sonion\\Model\\mmproj-F16.gguf"
+  }
+}

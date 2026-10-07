@@ -1,0 +1,23 @@
+{
+  "A_Q2": {
+    "efficiency_percent": 72,
+    "downtime_hours": 20,
+    "output_units": 1000
+  },
+  "B_Q4": {
+    "efficiency_percent": 84,
+    "downtime_hours": 12,
+    "output_units": 1200
+  },
+  "expected": {
+    "efficiency_pp": 12,
+    "efficiency_relative_percent": 16.6666666667,
+    "downtime_decrease_hours": 8,
+    "downtime_decrease_percent": 40,
+    "cause": null,
+    "ranked_reasons": null,
+    "unreadable_Q4": null
+  },
+  "conflict": "Factory Alpha Q4: 84% versus 81%; Factory Beta is a different entity",
+  "chart_note": "Entirely vector bars and stroke labels; no native text or images. Scanned version fully rasterized."
+}

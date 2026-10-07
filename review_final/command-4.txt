@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\Users\\sanja\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "review_final/fixtures.py"
+  ],
+  "exit_code": 0,
+  "stdout": "warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.\nC:\\Users\\sanja\\Sonion\\review_final\\fixtures\n",
+  "stderr": ""
+}

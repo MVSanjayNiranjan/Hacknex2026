@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FolioMind — Multimodal Document Intelligence</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <span class="brand-name">FolioMind</span>
+      <span class="brand-tag">local document intelligence</span>
+    </div>
+    <div class="topbar-right">
+      <span id="model-status" class="badge badge-muted" title="Local model status">model: checking…</span>
+      <span id="source-count" class="badge badge-muted">0 sources</span>
+      <span id="selected-count" class="badge badge-accent">0 selected</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- Left sidebar: notebooks + sources -->
+    <aside class="sidebar" id="sidebar">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Notebooks</h2>
+          <button id="new-notebook-btn" class="btn btn-small" title="New notebook">+</button>
+        </div>
+        <ul id="notebook-list" class="notebook-list"></ul>
+      </section>
+
+      <section class="panel panel-grow">
+        <div class="panel-head">
+          <h2>Sources</h2>
+          <button id="upload-btn" class="btn btn-small" title="Upload PDFs">Upload</button>
+        </div>
+        <div id="dropzone" class="dropzone">
+          Drop PDFs here or
+          <button class="btn btn-small" id="dropzone-browse">browse</button>
+          <input type="file" id="file-input" accept=".pdf" multiple hidden>
+        </div>
+        <ul id="source-list" class="source-list"></ul>
+        <p id="source-empty" class="empty-state">No sources yet. Upload one or more PDFs to begin.</p>
+      </section>
+    </aside>
+
+    <!-- Center: chat -->
+    <main class="chat-panel">
+      <div id="chat-history" class="chat-history">
+        <div id="chat-empty" class="empty-state chat-empty">
+          <h3>Ask across your documents</h3>
+          <p>FolioMind searches every selected source, inspects relevant page images with the local vision model, and cites exact pages.</p>
+          <div class="suggestions">
+            <button class="suggestion">Summarize the key findings across all sources</button>
+            <button class="suggestion">Compare the main metrics between reporting periods and show the evidence</button>
+            <button class="suggestion">What do the charts show that the text does not mention?</button>
+          </div>
+        </div>
+      </div>
+      <div id="chat-status" class="chat-status hidden"></div>
+      <form id="chat-form" class="chat-input">
+        <textarea id="chat-question" rows="2" placeholder="Ask a question about your sources…" required></textarea>
+        <button type="submit" class="btn btn-primary" id="ask-btn">Ask</button>
+      </form>
+    </main>
+
+    <!-- Right: source viewer -->
+    <aside class="viewer" id="viewer">
+      <div class="panel-head">
+        <h2>Source viewer</h2>
+        <button id="viewer-close" class="btn btn-small viewer-close" title="Close">×</button>
+      </div>
+      <div id="viewer-empty" class="empty-state">Click a citation in an answer to open the supporting page.</div>
+      <div id="viewer-content" class="hidden">
+        <div class="viewer-meta" id="viewer-meta"></div>
+        <div class="viewer-image-wrap">
+          <img id="viewer-image" alt="Rendered document page">
+          <div id="viewer-highlight" class="viewer-highlight hidden"></div>
+        </div>
+        <div class="viewer-text" id="viewer-text"></div>
+      </div>
+    </aside>
+  </div>
+
+  <div id="toast-area" class="toast-area"></div>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

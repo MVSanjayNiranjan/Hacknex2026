@@ -1,0 +1,6 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Loading Qwen2.5-VL model...
+Model loaded. Starting application...
+ * Serving Flask app 'app'
+ * Debug mode: off
+Consider using the pymupdf_layout package for a greatly improved page layout analysis.

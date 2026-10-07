@@ -1,0 +1,378 @@
+{
+  "needs": [
+    "Compare production efficiency",
+    "cite your sources",
+    "Compare production efficiency between Q2 and Q4 and cite your sources."
+  ],
+  "elements": [
+    {
+      "id": "el_2e99c0e003404b51",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "12-percentage-point production efficiency increase from Q2 to Q4",
+      "content_type": "text",
+      "element_index": 3,
+      "text": "Management attributes the 12-percentage-point production efficiency increase from Q2 to Q4 to\nthe following three improvements. Contributions are management estimates, not experimentally\nproven causal effects.",
+      "bbox": [
+        48.0,
+        161.18,
+        537.67,
+        208.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -12.231413753650667,
+      "matched_needs": [
+        "Compare production efficiency between Q2 and Q4 and cite your sources."
+      ]
+    },
+    {
+      "id": "el_08e2a8bfc4f44b52",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "not production efficiency",
+      "content_type": "text",
+      "element_index": 3,
+      "text": "Figure 1 shows a quality metric, not production efficiency. Read the plotted labels to compare\nfirst-pass yield between Q2 and Q4. The complete chart is embedded as an image.",
+      "bbox": [
+        48.0,
+        161.18,
+        513.83,
+        192.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -11.654387441964147,
+      "matched_needs": [
+        "Compare production efficiency between Q2 and Q4 and cite your sources."
+      ]
+    },
+    {
+      "id": "el_d87fc7463d664d36",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 6,
+      "text": "Metric\nQ2\nQ3\nQ4",
+      "bbox": [
+        58.0,
+        343.3,
+        485.34,
+        357.07
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -9.962371515017864,
+      "matched_needs": [
+        "Compare production efficiency between Q2 and Q4 and cite your sources."
+      ]
+    },
+    {
+      "id": "el_fd4a6f405edc4f23",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 10,
+      "text": "Production efficiency\n72%\n78%\n84%",
+      "bbox": [
+        58.0,
+        471.25,
+        516.51,
+        484.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -9.49991065674402,
+      "matched_needs": [
+        "Compare production efficiency"
+      ]
+    },
+    {
+      "id": "el_8dfcb3f087514598",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "50 units per hour",
+      "content_type": "text",
+      "element_index": 4,
+      "text": "Production efficiency = good units produced / (planned production hours x standard rate) x 100. The\nstandard rate is 50 units per hour. Planned hours include downtime. First-pass yield is a separate\nquality measure shown in Figure 1.",
+      "bbox": [
+        48.0,
+        204.18,
+        544.16,
+        251.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -6.494765248437102,
+      "matched_needs": [
+        "Compare production efficiency"
+      ]
+    },
+    {
+      "id": "el_1bee83426b33486c",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "relative percent change",
+      "content_type": "text",
+      "element_index": 6,
+      "text": "For changes between two percentages, distinguish percentage points from relative percent change.\nCite Figure 1 for yield values and Table 1 for production efficiency values.",
+      "bbox": [
+        48.0,
+        625.07,
+        547.0,
+        656.18
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -6.257176106295928,
+      "matched_needs": [
+        "Compare production efficiency",
+        "cite your sources"
+      ]
+    },
+    {
+      "id": "el_1de3d4cf82d44c23",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "relative percent change",
+      "content_type": "table",
+      "element_index": 8,
+      "text": "MERIDIAN COM | PONENTS | / PLANT A | \n |  |  | \nQuality | tren | d: visu | al evi\n |  |  | \nSection 2: First-p | ass yield - F | igure 1 | \n |  |  | \n2.1 First-pas | s yield c | hart | \n |  |  | \nFigure 1 shows | a quality m | etric, not pro | duction ef\n |  |  | \nfirst-pass yield b | etween Q | 2 and Q4. The | complete\n |  |  | \n2.2 Interpret | ation rul | es | \n |  |  | \nFirst-pass yield | measures | units accepte | d without re\n |  |  | \nyield indicates f | ewer units | need rework o | r rejection\n |  |  | \nso the absolute | number of | reworked unit | s cannot b\n |  |  | \nFor changes be | tween two | percentages, | distinguish\n |  |  | \nCite Figure 1 fo | r yield valu | es and Table | 1 for produ\n |  |  | \nSynthetic evaluation d | ocument | Fict | ional company and | data | FY2025",
+      "bbox": [
+        48.0,
+        24.23,
+        295.4,
+        811.63
+      ],
+      "extraction_method": "pymupdf_table",
+      "warnings": [
+        "table structure inferred from ruling lines; verify merged cells"
+      ],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "rank": -1.364919601982239,
+      "matched_needs": [
+        "cite your sources"
+      ]
+    },
+    {
+      "id": "el_2142ac749ea04489",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "Quality trend: visual evidence",
+      "content_type": "text",
+      "element_index": 0,
+      "text": "MERIDIAN COMPONENTS  /  PLANT A\nQuality trend: visual evidence",
+      "bbox": [
+        48.0,
+        21.3,
+        359.78,
+        71.75
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_86c9925155304036",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "Quality trend: visual evidence",
+      "content_type": "text",
+      "element_index": 1,
+      "text": "Section 2: First-pass yield - Figure 1",
+      "bbox": [
+        48.0,
+        75.25,
+        208.05,
+        88.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_18629f527b9146e7",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "2.1 First-pass yield chart",
+      "content_type": "text",
+      "element_index": 2,
+      "text": "2.1 First-pass yield chart",
+      "bbox": [
+        48.0,
+        131.09,
+        200.45,
+        148.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_675bff3e1c684cba",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "Quarterly operations review",
+      "content_type": "text",
+      "element_index": 0,
+      "text": "MERIDIAN COMPONENTS  /  PLANT A\nQuarterly operations review",
+      "bbox": [
+        48.0,
+        21.3,
+        338.99,
+        71.75
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_0ce7c4f40b474e35",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "Quarterly operations review",
+      "content_type": "text",
+      "element_index": 1,
+      "text": "Section 1: Scope, definitions and operating results",
+      "bbox": [
+        48.0,
+        75.25,
+        270.34,
+        88.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_2acbcdd7e4bc4391",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.1 Scope and definitions",
+      "content_type": "text",
+      "element_index": 2,
+      "text": "1.1 Scope and definitions",
+      "bbox": [
+        48.0,
+        130.09,
+        204.77,
+        147.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_5973f0446434490a",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Management assessment",
+      "content_type": "text",
+      "element_index": 0,
+      "text": "MERIDIAN COMPONENTS  /  PLANT A\nManagement assessment",
+      "bbox": [
+        48.0,
+        21.3,
+        314.53,
+        71.75
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_383c3a09ba704941",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Management assessment",
+      "content_type": "text",
+      "element_index": 1,
+      "text": "Section 3: Attributed drivers and limitations",
+      "bbox": [
+        48.0,
+        75.25,
+        237.52,
+        88.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    },
+    {
+      "id": "el_71e92dbf6b404db3",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.1 Management estimate of efficiency drivers",
+      "content_type": "text",
+      "element_index": 2,
+      "text": "3.1 Management estimate of efficiency drivers",
+      "bbox": [
+        48.0,
+        131.09,
+        331.93,
+        148.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf",
+      "matched_needs": [
+        "adjacent-page-context"
+      ]
+    }
+  ],
+  "documents_searched": [
+    "Meridian_Operations_Test.pdf"
+  ],
+  "unavailable_sources": [],
+  "selected_ids": [
+    "doc_1259195236d7437b"
+  ]
+}

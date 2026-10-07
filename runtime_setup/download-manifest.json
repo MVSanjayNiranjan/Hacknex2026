@@ -1,0 +1,24 @@
+{
+  "repository_revision": "68bb8bc4b7df5289c143aaec0ab477a7d4051aab",
+  "model_sha256": "d16776dcd9a28d42758c2958ed3a752aabf20a305252cd64ff2be72b4a78c503",
+  "files": [
+    {
+      "name": "mmproj-F16.gguf",
+      "path": "C:\\Users\\sanja\\Sonion\\Model\\mmproj-F16.gguf",
+      "sha256": "987dd0733033fb5dd9b124d1ca926ae865572e432384eee7618b2eec3e735e17",
+      "url": "https://huggingface.co/unsloth/Qwen2.5-VL-7B-Instruct-GGUF/resolve/68bb8bc4b7df5289c143aaec0ab477a7d4051aab/mmproj-F16.gguf?download=true",
+      "bytes": 1354163040,
+      "verified": true,
+      "seconds": 815.59
+    },
+    {
+      "name": "llama_cpp_python-0.3.36-py3-none-win_amd64.whl",
+      "path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\llama_cpp_python-0.3.36-py3-none-win_amd64.whl",
+      "sha256": "2db1d93d452244cbb400d32c64c2467f2f2d373f8014a60b778b5b67973ed9db",
+      "url": "https://github.com/abetlen/llama-cpp-python/releases/download/v0.3.36-cu130/llama_cpp_python-0.3.36-py3-none-win_amd64.whl",
+      "bytes": 228139842,
+      "verified": true,
+      "seconds": 1687.5
+    }
+  ]
+}

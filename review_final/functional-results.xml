@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="19" skipped="0" tests="36" time="4.241" timestamp="2026-10-07T14:03:26.221178+05:30" hostname="Emperor"><testcase classname="review_final.test_functional" name="test_multi_upload_index_and_citations" time="0.320" /><testcase classname="review_final.test_functional" name="test_invalid_uploads[empty.pdf-empty]" time="0.028" /><testcase classname="review_final.test_functional" name="test_invalid_uploads[corrupt.pdf-corrupt]" time="0.074" /><testcase classname="review_final.test_functional" name="test_invalid_uploads[encrypted.pdf-encrypted]" time="0.083" /><testcase classname="review_final.test_functional" name="test_oversize_and_http_413" time="0.030" /><testcase classname="review_final.test_functional" name="test_snapshot_and_boundaries" time="0.221" /><testcase classname="review_final.test_functional" name="test_visual_zero_text_routing[C_vector.pdf]" time="0.135" /><testcase classname="review_final.test_functional" name="test_visual_zero_text_routing[C_scanned.pdf]" time="0.101" /><testcase classname="review_final.test_functional" name="test_visual_zero_text_routing[F_blurred.pdf]" time="0.099" /><testcase classname="review_final.test_functional" name="test_visual_zero_text_routing[F_unreadable.pdf]" time="0.100" /><testcase classname="review_final.test_functional" name="test_visual_despite_unrelated_hits_and_unique_coverage" time="0.239" /><testcase classname="review_final.test_functional" name="test_simple_vector_fallback_independent" time="0.094"><failure message="AssertionError: Two-bar vector chart missed by fallback&#10;assert []&#10; +  where [] = &lt;function visual_fallback_pages at 0x000002039557CEA0&gt;('nb_a0c4970f8a0c483d', ['doc_8afac03b803a46ae'], set())&#10; +    where &lt;function visual_fallback_pages at 0x000002039557CEA0&gt; = rs.visual_fallback_pages&#10; +    and   set() = set()">review_final\test_functional.py:90: in test_simple_vector_fallback_independent
+    assert rs.visual_fallback_pages(nb['id'],[doc['id']],set()), 'Two-bar vector chart missed by fallback'
+E   AssertionError: Two-bar vector chart missed by fallback
+E   assert []
+E    +  where [] = &lt;function visual_fallback_pages at 0x000002039557CEA0&gt;('nb_a0c4970f8a0c483d', ['doc_8afac03b803a46ae'], set())
+E    +    where &lt;function visual_fallback_pages at 0x000002039557CEA0&gt; = rs.visual_fallback_pages
+E    +    and   set() = set()</failure></testcase><testcase classname="review_final.test_functional" name="test_standalone_table_fallback" time="0.096" /><testcase classname="review_final.test_functional" name="test_complex_labels_rotation" time="0.186" /><testcase classname="review_final.test_functional" name="test_cropbox_coordinates" time="0.185"><failure message="AssertionError: CropBox expected [41.7, 79.5, 284.9, 111.0], got [27.3, 50.2, 186.4, 70.1]&#10;assert [27.3, 50.2, 186.4, 70.1] == approx([41.7 ...1, 111.0 ± 1])&#10;  &#10;  comparison failed. Mismatched elements: 4 / 4:&#10;  Max absolute difference: 98.49999999999997&#10;  Max relative difference: 0.5836653386454183&#10;  Index | Obtained | Expected &#10;  0     | 27.3     | 41.7 ± 1 &#10;  1     | 50.2     | 79.5 ± 1 &#10;  2     | 186.4    | 284.9 ± 1&#10;  3     | 70.1     | 111.0 ± 1">review_final\test_functional.py:106: in test_cropbox_coordinates
+    assert element['bbox_px']==pytest.approx(expected,abs=1), f"CropBox expected {expected}, got {element['bbox_px']}"
+E   AssertionError: CropBox expected [41.7, 79.5, 284.9, 111.0], got [27.3, 50.2, 186.4, 70.1]
+E   assert [27.3, 50.2, 186.4, 70.1] == approx([41.7 ...1, 111.0 ± 1])
+E     
+E     comparison failed. Mismatched elements: 4 / 4:
+E     Max absolute difference: 98.49999999999997
+E     Max relative difference: 0.5836653386454183
+E     Index | Obtained | Expected 
+E     0     | 27.3     | 41.7 ± 1 
+E     1     | 50.2     | 79.5 ± 1 
+E     2     | 186.4    | 284.9 ± 1
+E     3     | 70.1     | 111.0 ± 1</failure></testcase><testcase classname="review_final.test_functional" name="test_ambiguous_operand_rejected[Q2 efficiency 72%, Q4 efficiency 84%-fields0]" time="0.031"><failure message="Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;">review_final\test_functional.py:115: in test_ambiguous_operand_rejected
+    with pytest.raises(calc.CalculationError): operand(text,**fields)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;</failure></testcase><testcase classname="review_final.test_functional" name="test_ambiguous_operand_rejected[Metric | Revenue USD | Efficiency %\nQ2 | 100 | 72-fields1]" time="0.030"><failure message="Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;">review_final\test_functional.py:115: in test_ambiguous_operand_rejected
+    with pytest.raises(calc.CalculationError): operand(text,**fields)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;</failure></testcase><testcase classname="review_final.test_functional" name="test_ambiguous_operand_rejected[Q2 efficiency 72%-fields2]" time="0.029"><failure message="Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;">review_final\test_functional.py:115: in test_ambiguous_operand_rejected
+    with pytest.raises(calc.CalculationError): operand(text,**fields)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;</failure></testcase><testcase classname="review_final.test_functional" name="test_ambiguous_operand_rejected[Q2 efficiency 72%-fields3]" time="0.031"><failure message="Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;">review_final\test_functional.py:115: in test_ambiguous_operand_rejected
+    with pytest.raises(calc.CalculationError): operand(text,**fields)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;</failure></testcase><testcase classname="review_final.test_functional" name="test_ambiguous_page_period_rejected" time="0.028"><failure message="Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;">review_final\test_functional.py:119: in test_ambiguous_page_period_rejected
+    with pytest.raises(calc.CalculationError): operand('efficiency 72%',value=72,unit='%',metric='efficiency',period='Q2')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE &lt;class 'services.calculation_service.CalculationError'&gt;</failure></testcase><testcase classname="review_final.test_functional" name="test_sign_and_unknown_ids" time="0.029" /><testcase classname="review_final.test_functional" name="test_signed_positive_value_valid" time="0.026"><failure message="services.calculation_service.CalculationError: signed value 100 does not appear in the cited evidence e (sign and numeric boundaries must match exactly)">review_final\test_functional.py:127: in test_signed_positive_value_valid
+    assert operand('Q2 output +100 units',value=100,unit='units',metric='output',period='Q2')[0].value==100
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+review_final\test_functional.py:31: in operand
+    return ans._validate_operand(dict(evidence_id='e',**fields),{'e':el})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+services\answer_service.py:279: in _validate_operand
+    _, notes = _bind_operand(o, el)
+               ^^^^^^^^^^^^^^^^^^^^
+services\answer_service.py:153: in _bind_operand
+    raise calc.CalculationError(
+E   services.calculation_service.CalculationError: signed value 100 does not appear in the cited evidence e (sign and numeric boundaries must match exactly)</failure></testcase><testcase classname="review_final.test_functional" name="test_grouped_number_valid" time="0.028"><failure message="services.calculation_service.CalculationError: signed value 1000 does not appear in the cited evidence e (sign and numeric boundaries must match exactly)">review_final\test_functional.py:130: in test_grouped_number_valid
+    assert operand('Q2 output 1,000 units',value=1000,unit='units',metric='output',period='Q2')[0].value==1000
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+review_final\test_functional.py:31: in operand
+    return ans._validate_operand(dict(evidence_id='e',**fields),{'e':el})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+services\answer_service.py:279: in _validate_operand
+    _, notes = _bind_operand(o, el)
+               ^^^^^^^^^^^^^^^^^^^^
+services\answer_service.py:153: in _bind_operand
+    raise calc.CalculationError(
+E   services.calculation_service.CalculationError: signed value 1000 does not appear in the cited evidence e (sign and numeric boundaries must match exactly)</failure></testcase><testcase classname="review_final.test_functional" name="test_adjacent_quarter_value_valid" time="0.030"><failure message="services.calculation_service.CalculationError: period 'Q4' cannot be bound to the occurrence of 84 in e (the value sits in a different period's context, or no period context exists)">review_final\test_functional.py:133: in test_adjacent_quarter_value_valid
+    assert operand('Q2 72%; Q4 84%',value=84,unit='%',period='Q4')[0].value==84
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+review_final\test_functional.py:31: in operand
+    return ans._validate_operand(dict(evidence_id='e',**fields),{'e':el})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+services\answer_service.py:279: in _validate_operand
+    _, notes = _bind_operand(o, el)
+               ^^^^^^^^^^^^^^^^^^^^
+services\answer_service.py:203: in _bind_operand
+    raise calc.CalculationError(
+E   services.calculation_service.CalculationError: period 'Q4' cannot be bound to the occurrence of 84 in e (the value sits in a different period's context, or no period context exists)</failure></testcase><testcase classname="review_final.test_functional" name="test_derived_arithmetic_and_provenance" time="0.275" /><testcase classname="review_final.test_functional" name="test_unsupported_factual_claim_not_published[fabricated_quote]" time="0.178"><failure message="AssertionError: Unsupported claim published: [{'text': 'Efficiency was 999%.', 'evidence_ids': ['el_3c45adbabac9458b'], 'quote': 'xyz fabricated', 'support_check': 'quote_not_found_in_evidence'}]&#10;assert not [{'evidence_ids': ['el_3c45adbabac9458b'], 'quote': 'xyz fabricated', 'support_check': 'quote_not_found_in_evidence', 'text': 'Efficiency was 999%.'}]">review_final\test_functional.py:160: in test_unsupported_factual_claim_not_published
+    assert not result['claims'], f"Unsupported claim published: {result['claims']}"
+E   AssertionError: Unsupported claim published: [{'text': 'Efficiency was 999%.', 'evidence_ids': ['el_3c45adbabac9458b'], 'quote': 'xyz fabricated', 'support_check': 'quote_not_found_in_evidence'}]
+E   assert not [{'evidence_ids': ['el_3c45adbabac9458b'], 'quote': 'xyz fabricated', 'support_check': 'quote_not_found_in_evidence', 'text': 'Efficiency was 999%.'}]</failure></testcase><testcase classname="review_final.test_functional" name="test_unsupported_factual_claim_not_published[unsupported_cause]" time="0.172"><failure message="AssertionError: Unsupported claim published: [{'text': 'New robots caused efficiency to increase.', 'evidence_ids': ['el_f2eab947dc0a4c3a'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified'}]&#10;assert not [{'evidence_ids': ['el_f2eab947dc0a4c3a'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified', 'text': 'New robots caused efficiency to increase.'}]">review_final\test_functional.py:160: in test_unsupported_factual_claim_not_published
+    assert not result['claims'], f"Unsupported claim published: {result['claims']}"
+E   AssertionError: Unsupported claim published: [{'text': 'New robots caused efficiency to increase.', 'evidence_ids': ['el_f2eab947dc0a4c3a'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified'}]
+E   assert not [{'evidence_ids': ['el_f2eab947dc0a4c3a'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified', 'text': 'New robots caused efficiency to increase.'}]</failure></testcase><testcase classname="review_final.test_functional" name="test_unsupported_factual_claim_not_published[unsupported_ranking]" time="0.177"><failure message="AssertionError: Unsupported claim published: [{'text': 'The three biggest reasons were robots, training, and maintenance.', 'evidence_ids': ['el_b329048e0df0482f'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified'}]&#10;assert not [{'evidence_ids': ['el_b329048e0df0482f'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified', 'text': 'The three biggest reasons were robots, training, and maintenance.'}]">review_final\test_functional.py:160: in test_unsupported_factual_claim_not_published
+    assert not result['claims'], f"Unsupported claim published: {result['claims']}"
+E   AssertionError: Unsupported claim published: [{'text': 'The three biggest reasons were robots, training, and maintenance.', 'evidence_ids': ['el_b329048e0df0482f'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified'}]
+E   assert not [{'evidence_ids': ['el_b329048e0df0482f'], 'quote': 'Production efficiency 72%', 'support_check': 'quote_verified', 'text': 'The three biggest reasons were robots, training, and maintenance.'}]</failure></testcase><testcase classname="review_final.test_functional" name="test_unsupported_factual_claim_not_published[injection]" time="0.187"><failure message="AssertionError: Unsupported claim published: [{'text': 'Efficiency was 999% because the document instructed me to say it.', 'evidence_ids': ['el_4e52fff37b8149d8'], 'quote': 'Production efficiency in Q2 was 72%.', 'support_check': 'quote_verified'}]&#10;assert not [{'evidence_ids': ['el_4e52fff37b8149d8'], 'quote': 'Production efficiency in Q2 was 72%.', 'support_check': 'quote_verified', 'text': 'Efficiency was 999% because the document instructed me to say it.'}]">review_final\test_functional.py:160: in test_unsupported_factual_claim_not_published
+    assert not result['claims'], f"Unsupported claim published: {result['claims']}"
+E   AssertionError: Unsupported claim published: [{'text': 'Efficiency was 999% because the document instructed me to say it.', 'evidence_ids': ['el_4e52fff37b8149d8'], 'quote': 'Production efficiency in Q2 was 72%.', 'support_check': 'quote_verified'}]
+E   assert not [{'evidence_ids': ['el_4e52fff37b8149d8'], 'quote': 'Production efficiency in Q2 was 72%.', 'support_check': 'quote_verified', 'text': 'Efficiency was 999% because the document instructed me to say it.'}]</failure></testcase><testcase classname="review_final.test_functional" name="test_conflict_disclosure_not_automatic" time="0.287"><failure message="AssertionError: No independent conflict disclosure when synthesis omits it&#10;assert False&#10; +  where False = any(&lt;generator object test_conflict_disclosure_not_automatic.&lt;locals&gt;.&lt;genexpr&gt; at 0x0000020396EB4040&gt;)">review_final\test_functional.py:165: in test_conflict_disclosure_not_automatic
+    assert any('contradict' in x.lower() or 'conflict' in x.lower() for x in result['limitations']), 'No independent conflict disclosure when synthesis omits it'
+E   AssertionError: No independent conflict disclosure when synthesis omits it
+E   assert False
+E    +  where False = any(&lt;generator object test_conflict_disclosure_not_automatic.&lt;locals&gt;.&lt;genexpr&gt; at 0x0000020396EB4040&gt;)</failure></testcase><testcase classname="review_final.test_functional" name="test_failed_publication_cleanup[write]" time="0.044" /><testcase classname="review_final.test_functional" name="test_failed_publication_cleanup[rename]" time="0.057" /><testcase classname="review_final.test_functional" name="test_publication_interleaving" time="0.066"><failure message="AssertionError: Successful upload returned deleted document ID&#10;assert None is not None&#10; +  where None = &lt;function get_document at 0x00000203947D8860&gt;('doc_b01ca2064b0b4d2c')&#10; +    where &lt;function get_document at 0x00000203947D8860&gt; = storage.get_document">review_final\test_functional.py:186: in test_publication_interleaving
+    assert storage.get_document(first['id']) is not None, 'Successful upload returned deleted document ID'
+E   AssertionError: Successful upload returned deleted document ID
+E   assert None is not None
+E    +  where None = &lt;function get_document at 0x00000203947D8860&gt;('doc_b01ca2064b0b4d2c')
+E    +    where &lt;function get_document at 0x00000203947D8860&gt; = storage.get_document</failure></testcase><testcase classname="review_final.test_functional" name="test_distinct_database_lock_identity" time="0.001"><failure message="AssertionError: Distinct DBs collide&#10;assert WindowsPath('C:/Users/sanja/Sonion/a.worker.lock') != WindowsPath('C:/Users/sanja/Sonion/a.worker.lock')&#10; +  where WindowsPath('C:/Users/sanja/Sonion/a.worker.lock') = with_suffix('.worker.lock')&#10; +    where with_suffix = WindowsPath('C:/Users/sanja/Sonion/a.db').with_suffix&#10; +      where WindowsPath('C:/Users/sanja/Sonion/a.db') = resolve()&#10; +        where resolve = WindowsPath('a.db').resolve&#10; +          where WindowsPath('a.db') = Path('a.db')&#10; +  and   WindowsPath('C:/Users/sanja/Sonion/a.worker.lock') = with_suffix('.worker.lock')&#10; +    where with_suffix = WindowsPath('C:/Users/sanja/Sonion/a.sqlite').with_suffix&#10; +      where WindowsPath('C:/Users/sanja/Sonion/a.sqlite') = resolve()&#10; +        where resolve = WindowsPath('a.sqlite').resolve&#10; +          where WindowsPath('a.sqlite') = Path('a.sqlite')">review_final\test_functional.py:190: in test_distinct_database_lock_identity
+    assert Path('a.db').resolve().with_suffix('.worker.lock')!=Path('a.sqlite').resolve().with_suffix('.worker.lock'), 'Distinct DBs collide'
+E   AssertionError: Distinct DBs collide
+E   assert WindowsPath('C:/Users/sanja/Sonion/a.worker.lock') != WindowsPath('C:/Users/sanja/Sonion/a.worker.lock')
+E    +  where WindowsPath('C:/Users/sanja/Sonion/a.worker.lock') = with_suffix('.worker.lock')
+E    +    where with_suffix = WindowsPath('C:/Users/sanja/Sonion/a.db').with_suffix
+E    +      where WindowsPath('C:/Users/sanja/Sonion/a.db') = resolve()
+E    +        where resolve = WindowsPath('a.db').resolve
+E    +          where WindowsPath('a.db') = Path('a.db')
+E    +  and   WindowsPath('C:/Users/sanja/Sonion/a.worker.lock') = with_suffix('.worker.lock')
+E    +    where with_suffix = WindowsPath('C:/Users/sanja/Sonion/a.sqlite').with_suffix
+E    +      where WindowsPath('C:/Users/sanja/Sonion/a.sqlite') = resolve()
+E    +        where resolve = WindowsPath('a.sqlite').resolve
+E    +          where WindowsPath('a.sqlite') = Path('a.sqlite')</failure></testcase><testcase classname="review_final.test_functional" name="test_smoke_rejects_wrong_associations[Q2: 84% and Q4: 72%. Q2 is higher than Q4.]" time="0.003"><failure message="AssertionError: Incorrect answer accepted: {'Q2-&gt;72': True, 'Q4-&gt;84': True, 'Q4 higher': True}&#10;assert not True&#10; +  where True = all(dict_values([True, True, True]))&#10; +    where dict_values([True, True, True]) = &lt;built-in method values of dict object at 0x0000020395708FC0&gt;()&#10; +      where &lt;built-in method values of dict object at 0x0000020395708FC0&gt; = {'Q2-&gt;72': True, 'Q4 higher': True, 'Q4-&gt;84': True}.values">review_final\test_functional.py:197: in test_smoke_rejects_wrong_associations
+    assert not all(ns['checks'].values()), f"Incorrect answer accepted: {ns['checks']}"
+E   AssertionError: Incorrect answer accepted: {'Q2-&gt;72': True, 'Q4-&gt;84': True, 'Q4 higher': True}
+E   assert not True
+E    +  where True = all(dict_values([True, True, True]))
+E    +    where dict_values([True, True, True]) = &lt;built-in method values of dict object at 0x0000020395708FC0&gt;()
+E    +      where &lt;built-in method values of dict object at 0x0000020395708FC0&gt; = {'Q2-&gt;72': True, 'Q4 higher': True, 'Q4-&gt;84': True}.values</failure></testcase><testcase classname="review_final.test_functional" name="test_smoke_rejects_wrong_associations[Q2 has 72 units. Q4 has 84 units. Q4 is not higher.]" time="0.002"><failure message="AssertionError: Incorrect answer accepted: {'Q2-&gt;72': True, 'Q4-&gt;84': True, 'Q4 higher': True}&#10;assert not True&#10; +  where True = all(dict_values([True, True, True]))&#10; +    where dict_values([True, True, True]) = &lt;built-in method values of dict object at 0x0000020396F66980&gt;()&#10; +      where &lt;built-in method values of dict object at 0x0000020396F66980&gt; = {'Q2-&gt;72': True, 'Q4 higher': True, 'Q4-&gt;84': True}.values">review_final\test_functional.py:197: in test_smoke_rejects_wrong_associations
+    assert not all(ns['checks'].values()), f"Incorrect answer accepted: {ns['checks']}"
+E   AssertionError: Incorrect answer accepted: {'Q2-&gt;72': True, 'Q4-&gt;84': True, 'Q4 higher': True}
+E   assert not True
+E    +  where True = all(dict_values([True, True, True]))
+E    +    where dict_values([True, True, True]) = &lt;built-in method values of dict object at 0x0000020396F66980&gt;()
+E    +      where &lt;built-in method values of dict object at 0x0000020396F66980&gt; = {'Q2-&gt;72': True, 'Q4 higher': True, 'Q4-&gt;84': True}.values</failure></testcase></testsuite></testsuites>

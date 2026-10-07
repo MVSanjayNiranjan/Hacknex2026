@@ -1,0 +1,255 @@
+{
+  "notebook": {
+    "created_at": 1791365340.6421046,
+    "id": "nb_01c742a39f844aba",
+    "name": "CPU runtime verification"
+  },
+  "upload": {
+    "results": [
+      {
+        "document": {
+          "created_at": 1791365340.6917028,
+          "duplicate": false,
+          "error": null,
+          "id": "doc_70e97a0e3fa44ac2",
+          "name": "Q2-runtime.pdf",
+          "notebook_id": "nb_01c742a39f844aba",
+          "page_count": 0,
+          "selected": 1,
+          "sha256": "e5daac87e8dd7501619ce44f2004188ee6a31503f7e420dba4da128fcbb00867",
+          "size_bytes": 1044,
+          "status": "pending",
+          "stored_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\uploads\\nb_01c742a39f844aba\\f256bea68ef8.pdf"
+        },
+        "job_id": "job_d7670d39625748c9",
+        "status": "queued"
+      },
+      {
+        "document": {
+          "created_at": 1791365340.7030358,
+          "duplicate": false,
+          "error": null,
+          "id": "doc_fd5852a9647041bd",
+          "name": "Q4-runtime.pdf",
+          "notebook_id": "nb_01c742a39f844aba",
+          "page_count": 0,
+          "selected": 1,
+          "sha256": "bdb301311309b3458f8835afac9a36149d3a2bf9736e4652bc61e374baf26919",
+          "size_bytes": 1043,
+          "status": "pending",
+          "stored_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\uploads\\nb_01c742a39f844aba\\3ab92ab54122.pdf"
+        },
+        "job_id": "job_21275e6acffc484a",
+        "status": "queued"
+      }
+    ]
+  },
+  "index_results": [
+    {
+      "document_id": "doc_70e97a0e3fa44ac2",
+      "error": null,
+      "id": "job_d7670d39625748c9",
+      "kind": "index_document",
+      "message": "Complete",
+      "progress": 1.0,
+      "result": {
+        "document_id": "doc_70e97a0e3fa44ac2",
+        "pages": 1
+      },
+      "status": "done"
+    },
+    {
+      "document_id": "doc_fd5852a9647041bd",
+      "error": null,
+      "id": "job_21275e6acffc484a",
+      "kind": "index_document",
+      "message": "Complete",
+      "progress": 1.0,
+      "result": {
+        "document_id": "doc_fd5852a9647041bd",
+        "pages": 1
+      },
+      "status": "done"
+    }
+  ],
+  "answer_job": {
+    "job_id": "job_571cc2cf500d4010"
+  },
+  "answer": {
+    "document_id": null,
+    "error": null,
+    "id": "job_571cc2cf500d4010",
+    "kind": "answer",
+    "message": "Complete",
+    "progress": 1.0,
+    "result": {
+      "calculations": [],
+      "citations": {
+        "el_1e384474456f4990": {
+          "bbox": [
+            30.0,
+            77.8,
+            294.11,
+            99.78
+          ],
+          "content_type": "text",
+          "document_id": "doc_fd5852a9647041bd",
+          "document_name": "Q4-runtime.pdf",
+          "evidence_id": "el_1e384474456f4990",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Production efficiency in Q4 was 84%.",
+          "warnings": []
+        },
+        "el_8665e4a006d143d3": {
+          "bbox": [
+            30.0,
+            77.8,
+            294.11,
+            99.78
+          ],
+          "content_type": "text",
+          "document_id": "doc_70e97a0e3fa44ac2",
+          "document_name": "Q2-runtime.pdf",
+          "evidence_id": "el_8665e4a006d143d3",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Production efficiency in Q2 was 72%.",
+          "warnings": []
+        },
+        "el_b779a1c475de409b": {
+          "bbox": [
+            30.0,
+            30.65,
+            222.08,
+            55.38
+          ],
+          "content_type": "text",
+          "document_id": "doc_70e97a0e3fa44ac2",
+          "document_name": "Q2-runtime.pdf",
+          "evidence_id": "el_b779a1c475de409b",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Factory Alpha Q2 report",
+          "warnings": []
+        },
+        "el_b897795f26c84f2e": {
+          "bbox": [
+            30.0,
+            30.65,
+            222.08,
+            55.38
+          ],
+          "content_type": "text",
+          "document_id": "doc_fd5852a9647041bd",
+          "document_name": "Q4-runtime.pdf",
+          "evidence_id": "el_b897795f26c84f2e",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Factory Alpha Q4 report",
+          "warnings": []
+        },
+        "vis_5d0e8b93be77": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_fd5852a9647041bd",
+          "document_name": "Q4-runtime.pdf",
+          "evidence_id": "vis_5d0e8b93be77",
+          "extraction_method": "qwen_visual",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "section not identified",
+          "warnings": [
+            "visual observation; verify against the page image"
+          ]
+        },
+        "vis_f51e157c0267": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_70e97a0e3fa44ac2",
+          "document_name": "Q2-runtime.pdf",
+          "evidence_id": "vis_f51e157c0267",
+          "extraction_method": "qwen_visual",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "section not identified",
+          "warnings": [
+            "visual observation; verify against the page image"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "evidence_ids": [
+            "el_8665e4a006d143d3"
+          ],
+          "quote": "Production efficiency in Q2 was 72%",
+          "support_check": "quote_found_in_evidence",
+          "text": "Factory Alpha reported a production efficiency of 72% in Q2."
+        },
+        {
+          "evidence_ids": [
+            "el_1e384474456f4990"
+          ],
+          "quote": "Production efficiency in Q4 was 84%",
+          "support_check": "quote_found_in_evidence",
+          "text": "Factory Alpha reported a production efficiency of 84% in Q4."
+        }
+      ],
+      "documents_searched": [
+        "Q4-runtime.pdf",
+        "Q2-runtime.pdf"
+      ],
+      "dropped_claims": [],
+      "evidence_needs": [
+        "What production efficiency did Factory Alpha report in Q2",
+        "in Q4? Cite both reports",
+        "What production efficiency did Factory Alpha report in Q2 and in Q4? Cite both reports."
+      ],
+      "limitations": [
+        "Citation support is checked heuristically (quote matching with numeric boundaries); a verified quote does not prove the source supports the whole claim."
+      ],
+      "pages_analyzed": [
+        {
+          "document_id": "doc_70e97a0e3fa44ac2",
+          "document_name": "Q2-runtime.pdf",
+          "image_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\pages\\doc_70e97a0e3fa44ac2\\page_0001.png",
+          "page_number": 1
+        },
+        {
+          "document_id": "doc_fd5852a9647041bd",
+          "document_name": "Q4-runtime.pdf",
+          "image_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\pages\\doc_fd5852a9647041bd\\page_0001.png",
+          "page_number": 1
+        }
+      ],
+      "unanswerable_parts": [],
+      "unavailable_sources": [],
+      "visual_coverage": {
+        "candidate_visual_pages": 2,
+        "complete": true,
+        "pages_analyzed": 2
+      }
+    },
+    "status": "done"
+  },
+  "model_status": {
+    "error": null,
+    "gpu_offload_supported": false,
+    "gpu_placement_observed": null,
+    "handler_available": true,
+    "last_inference_seconds": 26.484,
+    "load_seconds": 3.422,
+    "loaded": true,
+    "mmproj_path": "C:\\Users\\sanja\\Sonion\\Model\\mmproj-F16.gguf",
+    "model_file_present": true,
+    "model_path": "C:\\Users\\sanja\\Sonion\\Model\\Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf",
+    "projector_file_present": true,
+    "state": "loaded",
+    "visual_inference_tested": true
+  }
+}

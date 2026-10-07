@@ -1,0 +1,896 @@
+{
+  "latency_seconds": 138.281,
+  "question": "Compare production efficiency between Q2 and Q4 and cite your sources.",
+  "job": {
+    "document_id": null,
+    "error": null,
+    "id": "job_302af1bb37924adb",
+    "kind": "answer",
+    "message": "Complete",
+    "progress": 1.0,
+    "result": {
+      "calculations": [
+        {
+          "formula": "84.0 - 72.0",
+          "inputs": [
+            {
+              "approximate": false,
+              "evidence_id": "el_fd4a6f405edc4f23_Q2",
+              "period": "Q2",
+              "unit": "%",
+              "value": 72.0
+            },
+            {
+              "approximate": false,
+              "evidence_id": "el_fd4a6f405edc4f23_Q4",
+              "period": "Q4",
+              "unit": "%",
+              "value": 84.0
+            }
+          ],
+          "notes": [
+            "this is an absolute difference of percentages, not a relative change"
+          ],
+          "operation": "percentage_point_change",
+          "unit": "percentage points",
+          "value": 12.0
+        },
+        {
+          "formula": "(84.0 - 72.0) / |72.0| * 100",
+          "inputs": [
+            {
+              "approximate": false,
+              "evidence_id": "el_fd4a6f405edc4f23_Q2",
+              "period": "Q2",
+              "unit": "%",
+              "value": 72.0
+            },
+            {
+              "approximate": false,
+              "evidence_id": "el_fd4a6f405edc4f23_Q4",
+              "period": "Q4",
+              "unit": "%",
+              "value": 84.0
+            }
+          ],
+          "notes": [],
+          "operation": "percentage_change",
+          "unit": "%",
+          "value": 16.6667
+        }
+      ],
+      "citations": {
+        "el_08e2a8bfc4f44b52": {
+          "bbox": [
+            48.0,
+            161.18,
+            513.83,
+            192.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_08e2a8bfc4f44b52",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "not production efficiency",
+          "warnings": []
+        },
+        "el_09d102c074964a75": {
+          "bbox": [
+            48.0,
+            228.09,
+            403.09,
+            245.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_09d102c074964a75",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Preventive maintenance - estimated +6 percentage points",
+          "warnings": []
+        },
+        "el_0ce7c4f40b474e35": {
+          "bbox": [
+            48.0,
+            75.25,
+            270.34,
+            88.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_0ce7c4f40b474e35",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Quarterly operations review",
+          "warnings": []
+        },
+        "el_18629f527b9146e7": {
+          "bbox": [
+            48.0,
+            131.09,
+            200.45,
+            148.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_18629f527b9146e7",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "2.1 First-pass yield chart",
+          "warnings": []
+        },
+        "el_1a3fc8f9bb084cab": {
+          "bbox": [
+            58.0,
+            535.25,
+            521.79,
+            548.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_1a3fc8f9bb084cab",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_1bee83426b33486c": {
+          "bbox": [
+            48.0,
+            625.07,
+            547.0,
+            656.18
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_1bee83426b33486c",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "relative percent change",
+          "warnings": []
+        },
+        "el_1dc0b5455f5a4569": {
+          "bbox": [
+            58.0,
+            439.25,
+            512.06,
+            452.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_1dc0b5455f5a4569",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_1e21239c42a74033": {
+          "bbox": [
+            58.0,
+            375.25,
+            514.84,
+            388.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_1e21239c42a74033",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_2142ac749ea04489": {
+          "bbox": [
+            48.0,
+            21.3,
+            359.78,
+            71.75
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_2142ac749ea04489",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "Quality trend: visual evidence",
+          "warnings": []
+        },
+        "el_23bf86847689456e": {
+          "bbox": [
+            48.0,
+            339.17,
+            532.82,
+            370.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_23bf86847689456e",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Operator training - estimated +4 percentage points",
+          "warnings": []
+        },
+        "el_2acbcdd7e4bc4391": {
+          "bbox": [
+            48.0,
+            130.09,
+            204.77,
+            147.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_2acbcdd7e4bc4391",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.1 Scope and definitions",
+          "warnings": []
+        },
+        "el_2e99c0e003404b51": {
+          "bbox": [
+            48.0,
+            161.18,
+            537.67,
+            208.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_2e99c0e003404b51",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "12-percentage-point production efficiency increase from Q2 to Q4",
+          "warnings": []
+        },
+        "el_370285ea8cfc4e05": {
+          "bbox": [
+            48.0,
+            420.17,
+            516.29,
+            451.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_370285ea8cfc4e05",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Material consistency - estimated +2 percentage points",
+          "warnings": []
+        },
+        "el_383c3a09ba704941": {
+          "bbox": [
+            48.0,
+            75.25,
+            237.52,
+            88.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_383c3a09ba704941",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Management assessment",
+          "warnings": []
+        },
+        "el_3b677fd09f104fe8": {
+          "bbox": [
+            48.0,
+            271.09,
+            233.68,
+            288.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_3b677fd09f104fe8",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_3dcb707464824ec0": {
+          "bbox": [
+            48.0,
+            561.17,
+            545.72,
+            608.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_3dcb707464824ec0",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "3.2 Cost and evidence limitations",
+          "warnings": []
+        },
+        "el_4362876cd7694664": {
+          "bbox": [
+            58.0,
+            503.25,
+            512.06,
+            516.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_4362876cd7694664",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_58caafe0bbbd496e": {
+          "bbox": null,
+          "content_type": "image_region",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_58caafe0bbbd496e",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "relative percent change",
+          "warnings": [
+            "graphics present; not described by text extraction"
+          ]
+        },
+        "el_5973f0446434490a": {
+          "bbox": [
+            48.0,
+            21.3,
+            314.53,
+            71.75
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_5973f0446434490a",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Management assessment",
+          "warnings": []
+        },
+        "el_5c61699ef4cd4b55": {
+          "bbox": [
+            58.0,
+            407.25,
+            521.79,
+            420.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_5c61699ef4cd4b55",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_675bff3e1c684cba": {
+          "bbox": [
+            48.0,
+            21.3,
+            338.99,
+            71.75
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_675bff3e1c684cba",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Quarterly operations review",
+          "warnings": []
+        },
+        "el_686884ff46ec4495": {
+          "bbox": [
+            48.0,
+            563.07,
+            539.56,
+            610.18
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_686884ff46ec4495",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "2.2 Interpretation rules",
+          "warnings": []
+        },
+        "el_69413649a87b4512": {
+          "bbox": [
+            48.0,
+            501.17,
+            547.0,
+            548.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_69413649a87b4512",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "3.2 Cost and evidence limitations",
+          "warnings": []
+        },
+        "el_71e92dbf6b404db3": {
+          "bbox": [
+            48.0,
+            131.09,
+            331.93,
+            148.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_71e92dbf6b404db3",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "3.1 Management estimate of efficiency drivers",
+          "warnings": []
+        },
+        "el_86c9925155304036": {
+          "bbox": [
+            48.0,
+            75.25,
+            208.05,
+            88.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_86c9925155304036",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "Quality trend: visual evidence",
+          "warnings": []
+        },
+        "el_8dfcb3f087514598": {
+          "bbox": [
+            48.0,
+            204.18,
+            544.16,
+            251.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_8dfcb3f087514598",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "50 units per hour",
+          "warnings": []
+        },
+        "el_8e39a208aad74ceb": {
+          "bbox": [
+            48.0,
+            801.29,
+            547.28,
+            812.28
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_8e39a208aad74ceb",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "3.2 Cost and evidence limitations",
+          "warnings": []
+        },
+        "el_9e431096c59941b5": {
+          "bbox": [
+            48.0,
+            532.98,
+            188.15,
+            550.88
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_9e431096c59941b5",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "2.2 Interpretation rules",
+          "warnings": []
+        },
+        "el_cad9d25b5ddb42c3": {
+          "bbox": [
+            48.0,
+            577.33,
+            522.7,
+            602.69
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_cad9d25b5ddb42c3",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_d519a4a4dfc34a2b": {
+          "bbox": [
+            48.0,
+            160.18,
+            544.44,
+            191.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_d519a4a4dfc34a2b",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "Plant A",
+          "warnings": []
+        },
+        "el_d7e5e29c026e4a9d": {
+          "bbox": [
+            48.0,
+            801.29,
+            547.28,
+            812.28
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_d7e5e29c026e4a9d",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_d87fc7463d664d36": {
+          "bbox": [
+            58.0,
+            343.3,
+            485.34,
+            357.07
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_d87fc7463d664d36",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_f2a208a6763b44ce": {
+          "bbox": [
+            48.0,
+            309.09,
+            360.44,
+            326.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_f2a208a6763b44ce",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Operator training - estimated +4 percentage points",
+          "warnings": []
+        },
+        "el_f57937b996394cba": {
+          "bbox": [
+            48.0,
+            471.09,
+            253.18,
+            488.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_f57937b996394cba",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "3.2 Cost and evidence limitations",
+          "warnings": []
+        },
+        "el_f68fa2d1d39b4f44": {
+          "bbox": [
+            48.0,
+            801.29,
+            547.28,
+            812.28
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_f68fa2d1d39b4f44",
+          "extraction_method": "pymupdf_text",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "relative percent change",
+          "warnings": []
+        },
+        "el_f6ea50627030438d": {
+          "bbox": [
+            48.0,
+            258.17,
+            543.23,
+            289.29
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_f6ea50627030438d",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Preventive maintenance - estimated +6 percentage points",
+          "warnings": []
+        },
+        "el_fd4a6f405edc4f23": {
+          "bbox": [
+            58.0,
+            471.25,
+            516.51,
+            484.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_fd4a6f405edc4f23",
+          "extraction_method": "pymupdf_text",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_fd4a6f405edc4f23_Q2": {
+          "bbox": [
+            58.0,
+            471.25,
+            516.51,
+            484.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_fd4a6f405edc4f23_Q2",
+          "extraction_method": "native_row_header_binding",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_fd4a6f405edc4f23_Q4": {
+          "bbox": [
+            58.0,
+            471.25,
+            516.51,
+            484.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_fd4a6f405edc4f23_Q4",
+          "extraction_method": "native_row_header_binding",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "1.2 Operating results - Table 1",
+          "warnings": []
+        },
+        "el_fe04814399c14517": {
+          "bbox": [
+            48.0,
+            390.09,
+            382.14,
+            407.99
+          ],
+          "content_type": "text",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "el_fe04814399c14517",
+          "extraction_method": "pymupdf_text",
+          "page_number": 3,
+          "printed_page_label": null,
+          "section": "Material consistency - estimated +2 percentage points",
+          "warnings": []
+        },
+        "vis_0972a2fa8d9d": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "vis_0972a2fa8d9d",
+          "extraction_method": "qwen_visual",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "table/figure label",
+          "warnings": [
+            "visual observation; approximate; verify image"
+          ]
+        },
+        "vis_6e2d04b828df": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "vis_6e2d04b828df",
+          "extraction_method": "qwen_visual",
+          "page_number": 1,
+          "printed_page_label": null,
+          "section": "table/figure label",
+          "warnings": [
+            "visual observation; approximate; verify image"
+          ]
+        },
+        "vis_b2d3a223fff5": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "vis_b2d3a223fff5",
+          "extraction_method": "qwen_visual",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "Figure 1",
+          "warnings": [
+            "visual observation; approximate; verify image"
+          ]
+        },
+        "vis_b2fa5a9fe85e": {
+          "bbox": null,
+          "content_type": "visual",
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "evidence_id": "vis_b2fa5a9fe85e",
+          "extraction_method": "qwen_visual",
+          "page_number": 2,
+          "printed_page_label": null,
+          "section": "Figure 1",
+          "warnings": [
+            "visual observation; approximate; verify image"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "evidence_ids": [
+            "el_fd4a6f405edc4f23_Q2"
+          ],
+          "quote": "Production efficiency in Q2: 72%.",
+          "support_check": "quote_found_in_evidence",
+          "text": "Production efficiency in Q2: 72%."
+        },
+        {
+          "evidence_ids": [
+            "el_fd4a6f405edc4f23_Q4"
+          ],
+          "quote": "Production efficiency in Q4: 84%.",
+          "support_check": "quote_found_in_evidence",
+          "text": "Production efficiency in Q4: 84%."
+        }
+      ],
+      "documents_searched": [
+        "Meridian_Operations_Test.pdf"
+      ],
+      "dropped_claims": [
+        {
+          "claim": "Production efficiency increased from Q2 to Q4.",
+          "evidence_ids": [
+            "el_5c61699ef4cd4b55",
+            "el_fd4a6f405edc4f23_Q2",
+            "el_fd4a6f405edc4f23_Q4"
+          ],
+          "reason": "quote not found in cited evidence"
+        }
+      ],
+      "evidence_needs": [
+        "Compare production efficiency",
+        "cite your sources",
+        "Compare production efficiency between Q2 and Q4 and cite your sources."
+      ],
+      "limitations": [
+        "The driver estimates sum to the observed change, but this does not establish causation.",
+        "Findings apply only to Plant A and the stated quarters.",
+        "The report does not provide sales prices, labor costs, or energy costs. Therefore, net profit and maintenance return on investment cannot be established.",
+        "Malformed whole-page inferred tables were excluded; complete native page rows and headers were retained.",
+        "1 claim(s) were removed because they cited evidence IDs that do not exist (possible hallucinated citation).",
+        "1 requested calculation(s) were rejected: period 'Q2 to Q4' cannot be bound to the occurrence of 12 in el_2e99c0e003404b51 (the value sits in a different period's context, or no period context exists)",
+        "Citation support is checked heuristically (quote matching with numeric boundaries); a verified quote does not prove the source supports the whole claim."
+      ],
+      "page_coverage": {
+        "candidate_pages": 3,
+        "complete": true,
+        "gathered_pages": 3
+      },
+      "pages_analyzed": [
+        {
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "image_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\pages\\doc_1259195236d7437b\\page_0003.png",
+          "page_number": 3
+        },
+        {
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "image_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\pages\\doc_1259195236d7437b\\page_0002.png",
+          "page_number": 2
+        },
+        {
+          "document_id": "doc_1259195236d7437b",
+          "document_name": "Meridian_Operations_Test.pdf",
+          "image_path": "C:\\Users\\sanja\\Sonion\\runtime_setup\\demo_data\\pages\\doc_1259195236d7437b\\page_0001.png",
+          "page_number": 1
+        }
+      ],
+      "structured_facts": [
+        {
+          "evidence_id": "el_fd4a6f405edc4f23_Q2",
+          "metric": "Production efficiency",
+          "period": "Q2",
+          "unit": "%",
+          "value": 72.0
+        },
+        {
+          "evidence_id": "el_fd4a6f405edc4f23_Q4",
+          "metric": "Production efficiency",
+          "period": "Q4",
+          "unit": "%",
+          "value": 84.0
+        }
+      ],
+      "unanswerable_parts": [
+        "The exact first-pass yield values for Q2 and Q4 are not provided in the text, only visual observations are available."
+      ],
+      "unavailable_sources": [],
+      "visual_coverage": {
+        "candidate_visual_pages": 3,
+        "complete": true,
+        "pages_analyzed": 3
+      }
+    },
+    "status": "done"
+  }
+}

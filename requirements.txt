@@ -1,0 +1,12 @@
+# Core app dependencies. llama-cpp-python is installed SEPARATELY with a
+# CUDA-enabled build — see README section 3. The plain pip wheel is CPU-only.
+Flask>=3.0
+PyMuPDF>=1.24
+python-dotenv>=1.0
+Pillow>=10.0
+
+# Installed separately (see README):
+# llama-cpp-python (CUDA build)
+
+# Dev/test
+pytest>=8.0

@@ -1,0 +1,167 @@
+QUESTION: Compare production efficiency between Q2 and Q4 and cite your sources.
+
+EVIDENCE ITEMS:
+
+[el_5973f0446434490a] document="Meridian_Operations_Test.pdf" PDF page 3 section="Management assessment" type=text
+MERIDIAN COMPONENTS  /  PLANT A
+Management assessment
+
+[el_383c3a09ba704941] document="Meridian_Operations_Test.pdf" PDF page 3 section="Management assessment" type=text
+Section 3: Attributed drivers and limitations
+
+[el_71e92dbf6b404db3] document="Meridian_Operations_Test.pdf" PDF page 3 section="3.1 Management estimate of efficiency drivers" type=text
+3.1 Management estimate of efficiency drivers
+
+[el_2e99c0e003404b51] document="Meridian_Operations_Test.pdf" PDF page 3 section="12-percentage-point production efficiency increase from Q2 to Q4" type=text
+Management attributes the 12-percentage-point production efficiency increase from Q2 to Q4 to
+the following three improvements. Contributions are management estimates, not experimentally
+proven causal effects.
+
+[el_09d102c074964a75] document="Meridian_Operations_Test.pdf" PDF page 3 section="Preventive maintenance - estimated +6 percentage points" type=text
+Preventive maintenance - estimated +6 percentage points
+
+[el_f6ea50627030438d] document="Meridian_Operations_Test.pdf" PDF page 3 section="Preventive maintenance - estimated +6 percentage points" type=text
+Scheduled inspections and replacement of worn bearings reduced interruptions. Unplanned downtime
+decreased from 40 hours in Q2 to 20 hours in Q4, consistent with the reported improvement.
+
+[el_f2a208a6763b44ce] document="Meridian_Operations_Test.pdf" PDF page 3 section="Operator training - estimated +4 percentage points" type=text
+Operator training - estimated +4 percentage points
+
+[el_23bf86847689456e] document="Meridian_Operations_Test.pdf" PDF page 3 section="Operator training - estimated +4 percentage points" type=text
+Standard setup checklists and practical training reduced setup mistakes. No separate training-effect
+experiment was conducted.
+
+[el_fe04814399c14517] document="Meridian_Operations_Test.pdf" PDF page 3 section="Material consistency - estimated +2 percentage points" type=text
+Material consistency - estimated +2 percentage points
+
+[el_370285ea8cfc4e05] document="Meridian_Operations_Test.pdf" PDF page 3 section="Material consistency - estimated +2 percentage points" type=text
+A tighter incoming-material specification reduced variation. Supplier-specific defect totals are not
+included in this report.
+
+[el_f57937b996394cba] document="Meridian_Operations_Test.pdf" PDF page 3 section="3.2 Cost and evidence limitations" type=text
+3.2 Cost and evidence limitations
+
+[el_69413649a87b4512] document="Meridian_Operations_Test.pdf" PDF page 3 section="3.2 Cost and evidence limitations" type=text
+Maintenance spend increased from USD 12,000 to USD 18,000. The report does not provide sales
+prices, labor costs, or energy costs. Therefore, net profit and maintenance return on investment cannot
+be established.
+
+[el_3dcb707464824ec0] document="Meridian_Operations_Test.pdf" PDF page 3 section="3.2 Cost and evidence limitations" type=text
+The driver estimates sum to the observed change, but this does not establish causation. Do not claim
+that higher maintenance spending alone caused the efficiency gain. Findings apply only to Plant A and
+the stated quarters.
+
+[el_8e39a208aad74ceb] document="Meridian_Operations_Test.pdf" PDF page 3 section="3.2 Cost and evidence limitations" type=text
+Synthetic evaluation document | Fictional company and data | FY2025
+Page 3
+
+[el_2142ac749ea04489] document="Meridian_Operations_Test.pdf" PDF page 2 section="Quality trend: visual evidence" type=text
+MERIDIAN COMPONENTS  /  PLANT A
+Quality trend: visual evidence
+
+[el_86c9925155304036] document="Meridian_Operations_Test.pdf" PDF page 2 section="Quality trend: visual evidence" type=text
+Section 2: First-pass yield - Figure 1
+
+[el_18629f527b9146e7] document="Meridian_Operations_Test.pdf" PDF page 2 section="2.1 First-pass yield chart" type=text
+2.1 First-pass yield chart
+
+[el_08e2a8bfc4f44b52] document="Meridian_Operations_Test.pdf" PDF page 2 section="not production efficiency" type=text
+Figure 1 shows a quality metric, not production efficiency. Read the plotted labels to compare
+first-pass yield between Q2 and Q4. The complete chart is embedded as an image.
+
+[el_9e431096c59941b5] document="Meridian_Operations_Test.pdf" PDF page 2 section="2.2 Interpretation rules" type=text
+2.2 Interpretation rules
+
+[el_686884ff46ec4495] document="Meridian_Operations_Test.pdf" PDF page 2 section="2.2 Interpretation rules" type=text
+First-pass yield measures units accepted without rework as a share of all inspected units. A higher
+yield indicates fewer units need rework or rejection. Table 1 does not supply the inspected-unit totals,
+so the absolute number of reworked units cannot be calculated from this report.
+
+[el_1bee83426b33486c] document="Meridian_Operations_Test.pdf" PDF page 2 section="relative percent change" type=text
+For changes between two percentages, distinguish percentage points from relative percent change.
+Cite Figure 1 for yield values and Table 1 for production efficiency values.
+
+[el_f68fa2d1d39b4f44] document="Meridian_Operations_Test.pdf" PDF page 2 section="relative percent change" type=text
+Synthetic evaluation document | Fictional company and data | FY2025
+Page 2
+
+[el_58caafe0bbbd496e] document="Meridian_Operations_Test.pdf" PDF page 2 section="relative percent change" type=image_region
+[page contains 1 embedded image(s)/graphic(s); visual inspection required]
+
+[el_675bff3e1c684cba] document="Meridian_Operations_Test.pdf" PDF page 1 section="Quarterly operations review" type=text
+MERIDIAN COMPONENTS  /  PLANT A
+Quarterly operations review
+
+[el_0ce7c4f40b474e35] document="Meridian_Operations_Test.pdf" PDF page 1 section="Quarterly operations review" type=text
+Section 1: Scope, definitions and operating results
+
+[el_2acbcdd7e4bc4391] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.1 Scope and definitions" type=text
+1.1 Scope and definitions
+
+[el_d519a4a4dfc34a2b] document="Meridian_Operations_Test.pdf" PDF page 1 section="Plant A" type=text
+This report compares Plant A in Q2, Q3 and Q4 of FY2025. All quarters use the same production line,
+standard rate and measurement rules. Values are fictional but internally consistent.
+
+[el_8dfcb3f087514598] document="Meridian_Operations_Test.pdf" PDF page 1 section="50 units per hour" type=text
+Production efficiency = good units produced / (planned production hours x standard rate) x 100. The
+standard rate is 50 units per hour. Planned hours include downtime. First-pass yield is a separate
+quality measure shown in Figure 1.
+
+[el_3b677fd09f104fe8] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+1.2 Operating results - Table 1
+
+[el_d87fc7463d664d36] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Metric
+Q2
+Q3
+Q4
+
+[el_1e21239c42a74033] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Planned production hours
+500
+500
+500
+
+[el_5c61699ef4cd4b55] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Good units produced
+18,000
+19,500
+21,000
+
+[el_1dc0b5455f5a4569] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Standard rate (units/hour)
+50
+50
+50
+
+[el_fd4a6f405edc4f23] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Production efficiency
+72%
+78%
+84%
+
+[el_4362876cd7694664] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Unplanned downtime (hours)
+40
+30
+20
+
+[el_1a3fc8f9bb084cab] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Maintenance spend (USD)
+12,000
+15,000
+18,000
+
+[el_cad9d25b5ddb42c3] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Table note: Good units exclude rejected units. Maintenance spend is reported in whole US dollars. Downtime is already
+included in planned hours; do not subtract it again when calculating efficiency.
+
+[el_d7e5e29c026e4a9d] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Synthetic evaluation document | Fictional company and data | FY2025
+Page 1
+
+[el_fd4a6f405edc4f23_Q2] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Production efficiency in Q2: 72%.
+
+[el_fd4a6f405edc4f23_Q4] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Production efficiency in Q4: 84%.

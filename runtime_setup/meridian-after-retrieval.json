@@ -1,0 +1,803 @@
+{
+  "needs": [
+    "Compare production efficiency",
+    "cite your sources",
+    "Compare production efficiency between Q2 and Q4 and cite your sources."
+  ],
+  "elements": [
+    {
+      "id": "el_5973f0446434490a",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Management assessment",
+      "content_type": "text",
+      "element_index": 0,
+      "text": "MERIDIAN COMPONENTS  /  PLANT A\nManagement assessment",
+      "bbox": [
+        48.0,
+        21.3,
+        314.53,
+        71.75
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_383c3a09ba704941",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Management assessment",
+      "content_type": "text",
+      "element_index": 1,
+      "text": "Section 3: Attributed drivers and limitations",
+      "bbox": [
+        48.0,
+        75.25,
+        237.52,
+        88.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_71e92dbf6b404db3",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.1 Management estimate of efficiency drivers",
+      "content_type": "text",
+      "element_index": 2,
+      "text": "3.1 Management estimate of efficiency drivers",
+      "bbox": [
+        48.0,
+        131.09,
+        331.93,
+        148.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_2e99c0e003404b51",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "12-percentage-point production efficiency increase from Q2 to Q4",
+      "content_type": "text",
+      "element_index": 3,
+      "text": "Management attributes the 12-percentage-point production efficiency increase from Q2 to Q4 to\nthe following three improvements. Contributions are management estimates, not experimentally\nproven causal effects.",
+      "bbox": [
+        48.0,
+        161.18,
+        537.67,
+        208.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_09d102c074964a75",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Preventive maintenance - estimated +6 percentage points",
+      "content_type": "text",
+      "element_index": 4,
+      "text": "Preventive maintenance - estimated +6 percentage points",
+      "bbox": [
+        48.0,
+        228.09,
+        403.09,
+        245.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_f6ea50627030438d",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Preventive maintenance - estimated +6 percentage points",
+      "content_type": "text",
+      "element_index": 5,
+      "text": "Scheduled inspections and replacement of worn bearings reduced interruptions. Unplanned downtime\ndecreased from 40 hours in Q2 to 20 hours in Q4, consistent with the reported improvement.",
+      "bbox": [
+        48.0,
+        258.17,
+        543.23,
+        289.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_f2a208a6763b44ce",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Operator training - estimated +4 percentage points",
+      "content_type": "text",
+      "element_index": 6,
+      "text": "Operator training - estimated +4 percentage points",
+      "bbox": [
+        48.0,
+        309.09,
+        360.44,
+        326.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_23bf86847689456e",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Operator training - estimated +4 percentage points",
+      "content_type": "text",
+      "element_index": 7,
+      "text": "Standard setup checklists and practical training reduced setup mistakes. No separate training-effect\nexperiment was conducted.",
+      "bbox": [
+        48.0,
+        339.17,
+        532.82,
+        370.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_fe04814399c14517",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Material consistency - estimated +2 percentage points",
+      "content_type": "text",
+      "element_index": 8,
+      "text": "Material consistency - estimated +2 percentage points",
+      "bbox": [
+        48.0,
+        390.09,
+        382.14,
+        407.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_370285ea8cfc4e05",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "Material consistency - estimated +2 percentage points",
+      "content_type": "text",
+      "element_index": 9,
+      "text": "A tighter incoming-material specification reduced variation. Supplier-specific defect totals are not\nincluded in this report.",
+      "bbox": [
+        48.0,
+        420.17,
+        516.29,
+        451.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_f57937b996394cba",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.2 Cost and evidence limitations",
+      "content_type": "text",
+      "element_index": 10,
+      "text": "3.2 Cost and evidence limitations",
+      "bbox": [
+        48.0,
+        471.09,
+        253.18,
+        488.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_69413649a87b4512",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.2 Cost and evidence limitations",
+      "content_type": "text",
+      "element_index": 11,
+      "text": "Maintenance spend increased from USD 12,000 to USD 18,000. The report does not provide sales\nprices, labor costs, or energy costs. Therefore, net profit and maintenance return on investment cannot\nbe established.",
+      "bbox": [
+        48.0,
+        501.17,
+        547.0,
+        548.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_3dcb707464824ec0",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.2 Cost and evidence limitations",
+      "content_type": "text",
+      "element_index": 12,
+      "text": "The driver estimates sum to the observed change, but this does not establish causation. Do not claim\nthat higher maintenance spending alone caused the efficiency gain. Findings apply only to Plant A and\nthe stated quarters.",
+      "bbox": [
+        48.0,
+        561.17,
+        545.72,
+        608.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_8e39a208aad74ceb",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.2 Cost and evidence limitations",
+      "content_type": "text",
+      "element_index": 13,
+      "text": "Synthetic evaluation document | Fictional company and data | FY2025\nPage 3",
+      "bbox": [
+        48.0,
+        801.29,
+        547.28,
+        812.28
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_eb0e4b29df714f56",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_a662a6737d2a4f58",
+      "page_number": 3,
+      "section": "3.2 Cost and evidence limitations",
+      "content_type": "table",
+      "element_index": 14,
+      "text": "MERIDIAN COMPONENTS / | PLANT A |  | \n |  |  | \nManagement | assessment |  | \n |  |  | \nSection 3: Attributed drivers an | d limitations |  | \n |  |  | \n3.1 Management estim | ate of efficiency drivers |  | \n |  |  | \nManagement attributes the | 12-percentage-point producti | on efficiency increase | from\n |  |  | \nthe following three improvem | ents. Contributions are manag | ement estimates, not ex | perim\n |  |  | \nproven causal effects. |  |  | \n |  |  | \nPreventive maintenan | ce - estimated +6 percent | age points | \n |  |  | \nScheduled inspections and r | eplacement of worn bearings r | educed interruptions. Un | plann\n |  |  | \ndecreased from 40 hours in | Q2 to 20 hours in Q4, consiste | nt with the reported impr | ovem\n |  |  | \nOperator training - est | imated +4 percentage po | ints | \n |  |  | \nStandard setup checklists a | nd practical training reduced se | tup mistakes. No separa | te tra\n |  |  | \nexperiment was conducted. |  |  | \n |  |  | \nMaterial consistency - | estimated +2 percentage | points | \n |  |  | \nA tighter incoming-material s | pecification reduced variation. | Supplier-specific defect | totals\n |  |  | \nincluded in this report. |  |  | \n |  |  | \n3.2 Cost and evidence | limitations |  | \n |  |  | \nMaintenance spend increas | ed from USD 12,000 to USD 18 | ,000. The report does n | ot pro\n |  |  | \nprices, labor costs, or energ | y costs. Therefore, net profit an | d maintenance return on | inve\n |  |  | \nbe established. |  |  | \n |  |  | \nThe driver estimates sum to | the observed change, but this | does not establish caus | ation.\n |  |  | \nthat higher maintenance spe | nding alone caused the efficien | cy gain. Findings apply | only t\n |  |  | \nthe stated quarters. |  |  | \n |  |  | \nSynthetic evaluation document | Fiction | al company and data | FY2025 |  | ",
+      "bbox": [
+        48.0,
+        24.23,
+        478.99,
+        811.63
+      ],
+      "extraction_method": "pymupdf_table",
+      "warnings": [
+        "table structure inferred from ruling lines; verify merged cells"
+      ],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_2142ac749ea04489",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "Quality trend: visual evidence",
+      "content_type": "text",
+      "element_index": 0,
+      "text": "MERIDIAN COMPONENTS  /  PLANT A\nQuality trend: visual evidence",
+      "bbox": [
+        48.0,
+        21.3,
+        359.78,
+        71.75
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_86c9925155304036",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "Quality trend: visual evidence",
+      "content_type": "text",
+      "element_index": 1,
+      "text": "Section 2: First-pass yield - Figure 1",
+      "bbox": [
+        48.0,
+        75.25,
+        208.05,
+        88.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_18629f527b9146e7",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "2.1 First-pass yield chart",
+      "content_type": "text",
+      "element_index": 2,
+      "text": "2.1 First-pass yield chart",
+      "bbox": [
+        48.0,
+        131.09,
+        200.45,
+        148.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_08e2a8bfc4f44b52",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "not production efficiency",
+      "content_type": "text",
+      "element_index": 3,
+      "text": "Figure 1 shows a quality metric, not production efficiency. Read the plotted labels to compare\nfirst-pass yield between Q2 and Q4. The complete chart is embedded as an image.",
+      "bbox": [
+        48.0,
+        161.18,
+        513.83,
+        192.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_9e431096c59941b5",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "2.2 Interpretation rules",
+      "content_type": "text",
+      "element_index": 4,
+      "text": "2.2 Interpretation rules",
+      "bbox": [
+        48.0,
+        532.98,
+        188.15,
+        550.88
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_686884ff46ec4495",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "2.2 Interpretation rules",
+      "content_type": "text",
+      "element_index": 5,
+      "text": "First-pass yield measures units accepted without rework as a share of all inspected units. A higher\nyield indicates fewer units need rework or rejection. Table 1 does not supply the inspected-unit totals,\nso the absolute number of reworked units cannot be calculated from this report.",
+      "bbox": [
+        48.0,
+        563.07,
+        539.56,
+        610.18
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_1bee83426b33486c",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "relative percent change",
+      "content_type": "text",
+      "element_index": 6,
+      "text": "For changes between two percentages, distinguish percentage points from relative percent change.\nCite Figure 1 for yield values and Table 1 for production efficiency values.",
+      "bbox": [
+        48.0,
+        625.07,
+        547.0,
+        656.18
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_f68fa2d1d39b4f44",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "relative percent change",
+      "content_type": "text",
+      "element_index": 7,
+      "text": "Synthetic evaluation document | Fictional company and data | FY2025\nPage 2",
+      "bbox": [
+        48.0,
+        801.29,
+        547.28,
+        812.28
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_1de3d4cf82d44c23",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "relative percent change",
+      "content_type": "table",
+      "element_index": 8,
+      "text": "MERIDIAN COM | PONENTS | / PLANT A | \n |  |  | \nQuality | tren | d: visu | al evi\n |  |  | \nSection 2: First-p | ass yield - F | igure 1 | \n |  |  | \n2.1 First-pas | s yield c | hart | \n |  |  | \nFigure 1 shows | a quality m | etric, not pro | duction ef\n |  |  | \nfirst-pass yield b | etween Q | 2 and Q4. The | complete\n |  |  | \n2.2 Interpret | ation rul | es | \n |  |  | \nFirst-pass yield | measures | units accepte | d without re\n |  |  | \nyield indicates f | ewer units | need rework o | r rejection\n |  |  | \nso the absolute | number of | reworked unit | s cannot b\n |  |  | \nFor changes be | tween two | percentages, | distinguish\n |  |  | \nCite Figure 1 fo | r yield valu | es and Table | 1 for produ\n |  |  | \nSynthetic evaluation d | ocument | Fict | ional company and | data | FY2025",
+      "bbox": [
+        48.0,
+        24.23,
+        295.4,
+        811.63
+      ],
+      "extraction_method": "pymupdf_table",
+      "warnings": [
+        "table structure inferred from ruling lines; verify merged cells"
+      ],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_58caafe0bbbd496e",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_42f6356453db4a4f",
+      "page_number": 2,
+      "section": "relative percent change",
+      "content_type": "image_region",
+      "element_index": 9,
+      "text": "[page contains 1 embedded image(s)/graphic(s); visual inspection required]",
+      "bbox": null,
+      "extraction_method": "pymupdf_text",
+      "warnings": [
+        "graphics present; not described by text extraction"
+      ],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_675bff3e1c684cba",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "Quarterly operations review",
+      "content_type": "text",
+      "element_index": 0,
+      "text": "MERIDIAN COMPONENTS  /  PLANT A\nQuarterly operations review",
+      "bbox": [
+        48.0,
+        21.3,
+        338.99,
+        71.75
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_0ce7c4f40b474e35",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "Quarterly operations review",
+      "content_type": "text",
+      "element_index": 1,
+      "text": "Section 1: Scope, definitions and operating results",
+      "bbox": [
+        48.0,
+        75.25,
+        270.34,
+        88.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_2acbcdd7e4bc4391",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.1 Scope and definitions",
+      "content_type": "text",
+      "element_index": 2,
+      "text": "1.1 Scope and definitions",
+      "bbox": [
+        48.0,
+        130.09,
+        204.77,
+        147.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_d519a4a4dfc34a2b",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "Plant A",
+      "content_type": "text",
+      "element_index": 3,
+      "text": "This report compares Plant A in Q2, Q3 and Q4 of FY2025. All quarters use the same production line,\nstandard rate and measurement rules. Values are fictional but internally consistent.",
+      "bbox": [
+        48.0,
+        160.18,
+        544.44,
+        191.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_8dfcb3f087514598",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "50 units per hour",
+      "content_type": "text",
+      "element_index": 4,
+      "text": "Production efficiency = good units produced / (planned production hours x standard rate) x 100. The\nstandard rate is 50 units per hour. Planned hours include downtime. First-pass yield is a separate\nquality measure shown in Figure 1.",
+      "bbox": [
+        48.0,
+        204.18,
+        544.16,
+        251.29
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_3b677fd09f104fe8",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 5,
+      "text": "1.2 Operating results - Table 1",
+      "bbox": [
+        48.0,
+        271.09,
+        233.68,
+        288.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_d87fc7463d664d36",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 6,
+      "text": "Metric\nQ2\nQ3\nQ4",
+      "bbox": [
+        58.0,
+        343.3,
+        485.34,
+        357.07
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_1e21239c42a74033",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 7,
+      "text": "Planned production hours\n500\n500\n500",
+      "bbox": [
+        58.0,
+        375.25,
+        514.84,
+        388.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_5c61699ef4cd4b55",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 8,
+      "text": "Good units produced\n18,000\n19,500\n21,000",
+      "bbox": [
+        58.0,
+        407.25,
+        521.79,
+        420.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_1dc0b5455f5a4569",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 9,
+      "text": "Standard rate (units/hour)\n50\n50\n50",
+      "bbox": [
+        58.0,
+        439.25,
+        512.06,
+        452.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_fd4a6f405edc4f23",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 10,
+      "text": "Production efficiency\n72%\n78%\n84%",
+      "bbox": [
+        58.0,
+        471.25,
+        516.51,
+        484.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_4362876cd7694664",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 11,
+      "text": "Unplanned downtime (hours)\n40\n30\n20",
+      "bbox": [
+        58.0,
+        503.25,
+        512.06,
+        516.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_1a3fc8f9bb084cab",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 12,
+      "text": "Maintenance spend (USD)\n12,000\n15,000\n18,000",
+      "bbox": [
+        58.0,
+        535.25,
+        521.79,
+        548.99
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_cad9d25b5ddb42c3",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 13,
+      "text": "Table note: Good units exclude rejected units. Maintenance spend is reported in whole US dollars. Downtime is already\nincluded in planned hours; do not subtract it again when calculating efficiency.",
+      "bbox": [
+        48.0,
+        577.33,
+        522.7,
+        602.69
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_d7e5e29c026e4a9d",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "text",
+      "element_index": 14,
+      "text": "Synthetic evaluation document | Fictional company and data | FY2025\nPage 1",
+      "bbox": [
+        48.0,
+        801.29,
+        547.28,
+        812.28
+      ],
+      "extraction_method": "pymupdf_text",
+      "warnings": [],
+      "document_name": "Meridian_Operations_Test.pdf"
+    },
+    {
+      "id": "el_8a404fefab5c4cbb",
+      "document_id": "doc_1259195236d7437b",
+      "page_id": "pg_7878999f22404bb0",
+      "page_number": 1,
+      "section": "1.2 Operating results - Table 1",
+      "content_type": "table",
+      "element_index": 15,
+      "text": "MERIDIAN COMPONE | NTS / | PLANT A |  |  |  | \n |  |  |  |  |  | \nQuarterly | ope | rati | ons revie | w |  | \n |  |  |  |  |  | \nSection 1: Scope, definit | ions an | d operati | ng results |  |  | \n |  |  |  |  |  | \n1.1 Scope and de | finitio | ns |  |  |  | \n |  |  |  |  |  | \nThis report compares | Plant | A in Q2, | Q3 and Q4 of FY20 | 25. All quarters u | se the same pro | duction l\n |  |  |  |  |  | \nstandard rate and me | asurem | ent rule | s. Values are fiction | al but internally c | onsistent. | \n |  |  |  |  |  | \nProduction efficienc | y = goo | d units | produced / (planned | production hour | s x standard rate | ) x 100.\n |  |  |  |  |  | \nstandard rate is 50 un | its per | hour. P | lanned hours inclu | de downtime. Firs | t-pass yield is a | separate\n |  |  |  |  |  | \nquality measure show | n in Fig | ure 1. |  |  |  | \n |  |  |  |  |  | \n1.2 Operating res | ults - | Table | 1 |  |  | \n |  |  |  |  |  | \nMetric |  |  | Q2 | Q3 | Q4 | \n |  |  |  |  |  | \nPlanned production h | ours |  |  | 500 | 500 | 500\n |  |  |  |  |  | \nGood units produced |  |  |  | 18,000 | 19,500 | 21,000\n |  |  |  |  |  | \nStandard rate (units/h | our) |  |  | 50 | 50 | 50\n |  |  |  |  |  | \nProduction efficiency |  |  |  | 72% | 78% | 84%\n |  |  |  |  |  | \nUnplanned downtime | (hours) |  |  | 40 | 30 | 20\n |  |  |  |  |  | \nMaintenance spend ( | USD) |  |  | 12,000 | 15,000 | 18,000\n |  |  |  |  |  | \nTable note: Good units exc | lude reje | cted unit | s. Maintenance spend is | reported in whole US | dollars. Downtime | is already\n |  |  |  |  |  | \nincluded in planned hours; | do not s | ubtract it | again when calculating e | fficiency. |  | \n |  |  |  |  |  | \nSynthetic evaluation documen | t | Fiction | al company | and data | FY2025 |  |  | P",
+      "bbox": [
+        48.0,
+        24.23,
+        527.29,
+        811.63
+      ],
+      "extraction_method": "pymupdf_table",
+      "warnings": [
+        "table structure inferred from ruling lines; verify merged cells"
+      ],
+      "document_name": "Meridian_Operations_Test.pdf"
+    }
+  ],
+  "page_coverage": {
+    "candidate_pages": 3,
+    "gathered_pages": 3,
+    "complete": true
+  },
+  "documents_searched": [
+    "Meridian_Operations_Test.pdf"
+  ],
+  "unavailable_sources": [],
+  "selected_ids": [
+    "doc_1259195236d7437b"
+  ]
+}

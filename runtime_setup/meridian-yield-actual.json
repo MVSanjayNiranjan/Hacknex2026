@@ -1,0 +1,13 @@
+{
+  "latency_seconds": 150.75,
+  "question": "Compare first-pass yield between Q2 and Q4 in Figure 1 and cite your sources.",
+  "job": {
+    "document_id": null,
+    "error": null,
+    "id": "job_7134c590fd0b464a",
+    "kind": "answer",
+    "message": "Synthesizing answer",
+    "progress": 0.0,
+    "status": "running"
+  }
+}

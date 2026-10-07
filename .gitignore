@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local config
+.env
+
+# Runtime data (uploads, rendered pages, SQLite DB)
+data/
+
+# Model weights (downloaded separately)
+Model/
+models/
+*.gguf
+*.whl

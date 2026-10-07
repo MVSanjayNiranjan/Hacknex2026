@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "AB624C5BE1A8C09941EE528E862EC306757E5BE1C8667983A0816EE6789DCEEA",
+        "Path":  "C:\\Users\\sanja\\Sonion\\services\\model_service.py"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "891C1E1EB91AB63E03C80D1D79E833AF650DDABB098104F4AFCF8863D2B3C9B7",
+        "Path":  "C:\\Users\\sanja\\Sonion\\scripts\\smoke_test_model.py"
+    }
+]

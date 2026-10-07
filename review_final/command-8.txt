@@ -1,0 +1,10 @@
+{
+  "command": [
+    "node",
+    "-"
+  ],
+  "stdin_script": "review_final/frontend_checks.cjs",
+  "exit_code": 1,
+  "stdout": "{\n  \"kind\": \"JavaScript/DOM simulation; not browser testing\",\n  \"passed\": 6,\n  \"failed\": 1,\n  \"skipped\": 0,\n  \"results\": [\n    {\n      \"name\": \"cached image paints highlight\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"rapid citations discard stale detail\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"no-coordinate citation clears highlight\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"resize repaints cached image\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"HTML-like text uses literal textContent\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"API handles non-JSON HTTP errors\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"rapid notebook switching discards stale sources\",\n      \"pass\": false,\n      \"error\": \"'old-doc' == 'new-doc'\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}

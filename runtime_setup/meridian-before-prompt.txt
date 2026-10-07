@@ -1,0 +1,90 @@
+QUESTION: Compare production efficiency between Q2 and Q4 and cite your sources.
+
+EVIDENCE ITEMS:
+
+[el_2e99c0e003404b51] document="Meridian_Operations_Test.pdf" PDF page 3 section="12-percentage-point production efficiency increase from Q2 to Q4" type=text
+Management attributes the 12-percentage-point production efficiency increase from Q2 to Q4 to
+the following three improvements. Contributions are management estimates, not experimentally
+proven causal effects.
+
+[el_08e2a8bfc4f44b52] document="Meridian_Operations_Test.pdf" PDF page 2 section="not production efficiency" type=text
+Figure 1 shows a quality metric, not production efficiency. Read the plotted labels to compare
+first-pass yield between Q2 and Q4. The complete chart is embedded as an image.
+
+[el_d87fc7463d664d36] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Metric
+Q2
+Q3
+Q4
+
+[el_fd4a6f405edc4f23] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.2 Operating results - Table 1" type=text
+Production efficiency
+72%
+78%
+84%
+
+[el_8dfcb3f087514598] document="Meridian_Operations_Test.pdf" PDF page 1 section="50 units per hour" type=text
+Production efficiency = good units produced / (planned production hours x standard rate) x 100. The
+standard rate is 50 units per hour. Planned hours include downtime. First-pass yield is a separate
+quality measure shown in Figure 1.
+
+[el_1bee83426b33486c] document="Meridian_Operations_Test.pdf" PDF page 2 section="relative percent change" type=text
+For changes between two percentages, distinguish percentage points from relative percent change.
+Cite Figure 1 for yield values and Table 1 for production efficiency values.
+
+[el_1de3d4cf82d44c23] document="Meridian_Operations_Test.pdf" PDF page 2 section="relative percent change" type=table
+MERIDIAN COM | PONENTS | / PLANT A | 
+ |  |  | 
+Quality | tren | d: visu | al evi
+ |  |  | 
+Section 2: First-p | ass yield - F | igure 1 | 
+ |  |  | 
+2.1 First-pas | s yield c | hart | 
+ |  |  | 
+Figure 1 shows | a quality m | etric, not pro | duction ef
+ |  |  | 
+first-pass yield b | etween Q | 2 and Q4. The | complete
+ |  |  | 
+2.2 Interpret | ation rul | es | 
+ |  |  | 
+First-pass yield | measures | units accepte | d without re
+ |  |  | 
+yield indicates f | ewer units | need rework o | r rejection
+ |  |  | 
+so the absolute | number of | reworked unit | s cannot b
+ |  |  | 
+For changes be | tween two | percentages, | distinguish
+ |  |  | 
+Cite Figure 1 fo | r yield valu | es and Table | 1 for produ
+ |  |  | 
+Synthetic evaluation d | ocument | Fict | ional company and | data | FY2025
+
+[el_2142ac749ea04489] document="Meridian_Operations_Test.pdf" PDF page 2 section="Quality trend: visual evidence" type=text
+MERIDIAN COMPONENTS  /  PLANT A
+Quality trend: visual evidence
+
+[el_86c9925155304036] document="Meridian_Operations_Test.pdf" PDF page 2 section="Quality trend: visual evidence" type=text
+Section 2: First-pass yield - Figure 1
+
+[el_18629f527b9146e7] document="Meridian_Operations_Test.pdf" PDF page 2 section="2.1 First-pass yield chart" type=text
+2.1 First-pass yield chart
+
+[el_675bff3e1c684cba] document="Meridian_Operations_Test.pdf" PDF page 1 section="Quarterly operations review" type=text
+MERIDIAN COMPONENTS  /  PLANT A
+Quarterly operations review
+
+[el_0ce7c4f40b474e35] document="Meridian_Operations_Test.pdf" PDF page 1 section="Quarterly operations review" type=text
+Section 1: Scope, definitions and operating results
+
+[el_2acbcdd7e4bc4391] document="Meridian_Operations_Test.pdf" PDF page 1 section="1.1 Scope and definitions" type=text
+1.1 Scope and definitions
+
+[el_5973f0446434490a] document="Meridian_Operations_Test.pdf" PDF page 3 section="Management assessment" type=text
+MERIDIAN COMPONENTS  /  PLANT A
+Management assessment
+
+[el_383c3a09ba704941] document="Meridian_Operations_Test.pdf" PDF page 3 section="Management assessment" type=text
+Section 3: Attributed drivers and limitations
+
+[el_71e92dbf6b404db3] document="Meridian_Operations_Test.pdf" PDF page 3 section="3.1 Management estimate of efficiency drivers" type=text
+3.1 Management estimate of efficiency drivers

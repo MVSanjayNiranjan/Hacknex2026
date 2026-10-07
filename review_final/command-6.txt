@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\Users\\sanja\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "review_final/runtime_checks.py"
+  ],
+  "exit_code": 0,
+  "stdout": "warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.\nConsider using the pymupdf_layout package for a greatly improved page layout analysis.\n{\n  \"passed\": 17,\n  \"failed\": 0,\n  \"skipped\": 0,\n  \"checks\": [\n    \"HTTP template\",\n    \"HTTP JS asset\",\n    \"HTTP notebook creation\",\n    \"worker start\",\n    \"worker real indexing\",\n    \"HTTP indexed status\",\n    \"HTTP citation image\",\n    \"HTTP selection\",\n    \"HTTP empty selected chat\",\n    \"HTTP queued chat\",\n    \"worker mocked answer job\",\n    \"HTTP persistent chat\",\n    \"separate process active ownership\",\n    \"worker shutdown\",\n    \"blocking job entered\",\n    \"lock retained while alive\",\n    \"lock released after exit\"\n  ],\n  \"server_port\": 56685\n}\nOWNED SERVER STOPPED; TEMP DATA CLEANED\n\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"GET / HTTP/1.1\" 200 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"GET /static/js/app.js HTTP/1.1\" 200 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"POST /api/notebooks HTTP/1.1\" 201 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"GET /api/jobs/job_c2ea13499613431e HTTP/1.1\" 200 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"GET /api/documents/doc_47c1a21c0da14882/pages/1/image HTTP/1.1\" 200 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"POST /api/documents/doc_47c1a21c0da14882/select HTTP/1.1\" 200 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"POST /api/notebooks/nb_0cd2db7133054e0f/chat HTTP/1.1\" 400 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"POST /api/documents/doc_47c1a21c0da14882/select HTTP/1.1\" 200 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"POST /api/notebooks/nb_0cd2db7133054e0f/chat HTTP/1.1\" 202 -\n127.0.0.1 - - [07/Oct/2026 13:59:30] \"GET /api/notebooks/nb_0cd2db7133054e0f/chat HTTP/1.1\" 200 -\nworker thread still running; keeping the process lock\n\n",
+  "stderr": ""
+}
