@@ -1,5 +1,7 @@
 # FolioMind — Multimodal Document Intelligence
 
+Hackathon repo: [https://github.com/MVSanjayNiranjan/Hacknex2026](https://github.com/MVSanjayNiranjan/Hacknex2026)
+
 A fully local NotebookLM-inspired prototype: upload multiple PDFs into a
 notebook, ask questions across text, tables, charts, and scanned pages, and
 get answers whose every claim cites a document and page you can open in one
@@ -12,16 +14,32 @@ click.
 - **Storage:** SQLite (notebooks, documents, pages, elements, FTS5 index,
   jobs, chat) + local files for PDFs and rendered page images
 
+## What is (and is not) in this repository
+
+This GitHub repo contains application source, tests, templates, and docs.
+These are **not** committed (too large, machine-local, or generated):
+
+| Path | Why it is missing | What to do |
+|------|-------------------|------------|
+| `Model/*.gguf` | ~6 GB of weights | Download both files in section 4 |
+| `runtime_setup/*.whl` | CUDA wheel exceeds GitHub's 100 MB limit | Install `llama-cpp-python` in section 3 |
+| `.venv/` | Local Python environment | Create one in section 1 |
+| `data/` | Local SQLite DB, uploads, page images | Created automatically on first run |
+| `.env` | Machine-specific config | Copy from `.env.example` in section 5 |
+
 ---
 
-## 1. Create a virtual environment (Windows PowerShell)
+## 1. Clone and create a virtual environment
 
 ```powershell
-cd C:\Users\sanja\Sonion
+git clone https://github.com/MVSanjayNiranjan/Hacknex2026.git
+cd Hacknex2026
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 ```
+
+On macOS/Linux, use `python3.12 -m venv .venv` and `source .venv/bin/activate`.
 
 ## 2. Install ordinary dependencies
 
@@ -33,7 +51,8 @@ pip install -r requirements.txt
 
 The plain `pip install llama-cpp-python` wheel is **CPU-only** — it will work
 but slowly. PyTorch's bundled CUDA does **not** help: llama.cpp is compiled
-natively and needs its own CUDA build.
+natively and needs its own CUDA build. A prebuilt CUDA `.whl` is **not** in
+this repo.
 
 **Option A — prebuilt CUDA wheel (try first):**
 
@@ -69,10 +88,13 @@ chat handler (image inputs would be silently dropped).
 
 ## 4. Model files
 
-Download from **unsloth/Qwen2.5-VL-7B-Instruct-GGUF** (same revision for both):
+Weights are **not** in GitHub. Create a `Model` folder in the project root and
+download both files from
+[unsloth/Qwen2.5-VL-7B-Instruct-GGUF](https://huggingface.co/unsloth/Qwen2.5-VL-7B-Instruct-GGUF)
+(same revision for both):
 
-- `Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf` (~4.7 GB) — already present in `Model\`
-- `mmproj-F16.gguf` (~1.3 GB) — **you must add this** to `Model\`
+- `Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf` (~4.7 GB) → `Model/Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf`
+- `mmproj-F16.gguf` (~1.3 GB) → `Model/mmproj-F16.gguf`
 
 A mismatched projector produces garbage output or crashes; the app checks for
 the file but cannot verify the pairing — download both from the same repo page.
@@ -83,9 +105,9 @@ the file but cannot verify the pairing — download both from the same repo page
 Copy-Item .env.example .env
 ```
 
-Defaults are conservative for the RTX 5060's 8 GB VRAM (`N_GPU_LAYERS=20`,
-`N_CTX=8192`). **No configuration is guaranteed to fit** — if you see CUDA
-out-of-memory, lower `N_GPU_LAYERS` (try 12, then 8, then 0 for CPU).
+Defaults are conservative for 8 GB VRAM (`N_GPU_LAYERS=20`, `N_CTX=8192`).
+**No configuration is guaranteed to fit** — if you see CUDA out-of-memory,
+lower `N_GPU_LAYERS` (try 12, then 8, then 0 for CPU).
 
 ## 6. Run
 
@@ -143,7 +165,7 @@ python scripts/smoke_test_model.py             # REAL model + image smoke test
 
 | Symptom | Likely cause / fix |
 |---|---|
-| `model: files missing` badge | `mmproj-F16.gguf` not downloaded, or `.env` paths wrong |
+| `model: files missing` badge | GGUF files not downloaded into `Model/`, or `.env` paths wrong |
 | CUDA/cuBLAS DLL errors on load | CPU-only llama-cpp-python build — redo README section 3 |
 | Out-of-memory on load or answer | Lower `N_GPU_LAYERS`; close other GPU apps; as last resort `N_GPU_LAYERS=0` |
 | "prompt exceeded the model context window" | Lower `MAX_EVIDENCE_PAGES`/`RETRIEVAL_TOP_K` or raise `N_CTX` |
